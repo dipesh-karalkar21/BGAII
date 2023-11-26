@@ -12,7 +12,7 @@ export default class StackNav extends React.Component{
   render(){
     return(
       <Stack.Navigator>
-        <Stack.Screen name = "~Bhagavad Gita~" component = {Chplist} options={{headerStyle: {backgroundColor:"#ff7722"},headerTitleAlign:"center"}}/>
+        <Stack.Screen name = "Home" component = {Chplist} options={{headerShown: false}}/>
         <Stack.Screen name = "Verse" component = {Verselist} options={{headerShown: false}}/>
         <Stack.Screen name = "Hverse" component = {Hverse} options={{headerShown: false}}/>
       </Stack.Navigator>

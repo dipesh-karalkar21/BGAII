@@ -19,9 +19,9 @@ export default class Verselist extends React.Component{
 
 
   renderItem =(item)=>{
-    console.log(item)
     return(
-      <TouchableOpacity style={styles.card} onPress={()=>{this.props.navigation.navigate("Hverse",{cid:item.item.id})}}>
+      <TouchableOpacity style={item.item.id == "1" ? styles.card1 : styles.card} 
+      onPress={()=>{this.props.navigation.navigate("Hverse",{cid:item.item.id})}}>
         <View style={styles.main}>
         <View style={styles.sub}>
           <Text style={styles.subText}>{item.item.data.verno}</Text>
@@ -35,14 +35,20 @@ export default class Verselist extends React.Component{
 
   render(){
     var chpid = this.props.route.params.chid
+    var chpid1 = chpid < 10 ? "0"+chpid : chpid
     var main = chplist[0][chpid]
-    console.log(main)
+    var chpname = this.props.route.params.chname
+    var chpogname = this.props.route.params.chogname
     return(
-      <View style={{height:"100%",width:"100%"}}>
+      <View style={{height:"100%",width:"100%",backgroundColor:"white"}}>
       <SafeAreaView style={styles.droidSafeArea} />
+      <View style={styles.mainHeader}>
+        <Text style={{textAlign:"left",color:"white",fontSize:RFValue(15),marginLeft:RFValue(10),fontWeight:"bold"}}>Chapter {chpid1} : {chpogname} </Text>
+      </View>
       <ImageBackground source={require("./KVR.jpg")} style={{height:"100%",width:Dimensions.get('window').width,}}>
       <FlatList
           data={main}
+          style={{opacity:0.7,backgroundColor:"#1D1D1D",width:"100%",marginBottom:RFValue(65)}}
           renderItem={this.renderItem}
           keyExtractor={item => item.id}
           bounces={false}
@@ -56,16 +62,16 @@ export default class Verselist extends React.Component{
 
 const styles = StyleSheet.create({
   text:{
-    color:"black",
+    color:"white",
     fontSize:RFValue(25),
     fontFamily:"sans-serif-medium"
   },
   subText:{
-    color:"black",
+    color:"white",
     fontSize:RFValue(12),
     fontWeight:"bold",
     marginLeft:RFValue(10),
-    marginRight:RFValue(10),
+    marginRight:RFValue(8),
     textAlign :"center"
   },
   droidSafeArea: {
@@ -73,24 +79,44 @@ const styles = StyleSheet.create({
   },
   card:{
     borderWidth:RFValue(1),
-    backgroundColor: "#CBCBCB",
+    backgroundColor: "#323232",
     borderRadius: RFValue(0),
-    width:"100%",
-    height:RFValue(100),
+    width:"95%",
     justifyContent:"center",
     alignSelf:"center",
     margin:RFValue(13),
-    marginBottom : 0,
-    marginTop:0,
-    opacity:0.7
+    marginBottom : RFValue(5),
+    marginTop:RFValue(5),
+    borderRadius:RFValue(10),
+    borderColor:"white"
+  },
+  card1:{
+    borderWidth:RFValue(1),
+    backgroundColor: "#323232",
+    borderRadius: RFValue(0),
+    width:"95%",
+    justifyContent:"center",
+    alignSelf:"center",
+    margin:RFValue(13),
+    marginBottom : RFValue(5),
+    marginTop:RFValue(10),
+    borderRadius:RFValue(10),
+    borderColor:"white"
   },
   sub:{
-    flexDirection:"row",
-    justifyContent:"space-around"
+    flexDirection:"column",
+    width:"100%",
   },
   main:{
     margin:RFValue(10),
     textAlign:"center",
     alignItems:"center",
+    width:"95%"
   },
+  mainHeader:{
+    height:RFValue(65),
+    backgroundColor:"#424242",
+    alignItems:"center",
+    flexDirection:"row"
+  }
 })
