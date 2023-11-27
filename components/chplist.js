@@ -48,7 +48,7 @@ export default class Chplist extends React.Component{
       <View style={{height:"100%",width:"100%",backgroundColor:"white"}}>
       <SafeAreaView style={styles.droidSafeArea} />
       <View style={styles.mainHeader}>
-        <Image source={require("./BG.png")} style={{height:RFValue(150),width:RFValue(250)}}></Image>
+        <Image source={require("./BG.png")} style={{height:RFValue(160),width:RFValue(310),marginTop:RFValue(10),marginRight:RFValue(20)}}></Image>
       </View>
       <ImageBackground source={require("./MV.jpg")} style={{width: Dimensions.get('window').width,height:"100%"}}>
       <FlatList
@@ -125,7 +125,7 @@ const styles = StyleSheet.create({
     marginRight:RFValue(5),
   },
   mainHeader:{
-    height:RFValue(65),
+    height:RFValue(75),
     backgroundColor:"#424242",
     justifyContent:"center",
     alignItems:"center",
