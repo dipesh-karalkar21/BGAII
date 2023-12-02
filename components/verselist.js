@@ -37,7 +37,6 @@ export default class Verselist extends React.Component{
     var chpid = this.props.route.params.chid
     var chpid1 = chpid < 10 ? "0"+chpid : chpid
     var main = chplist[0][chpid]
-    var chpname = this.props.route.params.chname
     var chpogname = this.props.route.params.chogname
     return(
       <View style={{height:"100%",width:"100%",backgroundColor:"white"}}>

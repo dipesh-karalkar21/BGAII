@@ -53,7 +53,7 @@ export default class Chplist extends React.Component{
       <ImageBackground source={require("./MV.jpg")} style={{width: Dimensions.get('window').width,height:"100%"}}>
       <FlatList
           data={CHPDATA}
-          style={{opacity:0.7,backgroundColor:"#1D1D1D",marginBottom:RFValue(95)}}
+          style={{opacity:0.7,backgroundColor:"#1D1D1D",marginBottom:RFValue(105)}}
           renderItem={this.renderItem}
           keyExtractor={item => item.id}
           bounces={false} />
