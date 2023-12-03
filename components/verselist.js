@@ -44,10 +44,10 @@ export default class Verselist extends React.Component{
       <View style={styles.mainHeader}>
         <Text style={{textAlign:"left",color:"white",fontSize:RFValue(15),marginLeft:RFValue(10),fontWeight:"bold"}}>Chapter {chpid1} : {chpogname} </Text>
       </View>
-      <ImageBackground source={require("./KVR.jpg")} style={{height:"100%",width:Dimensions.get('window').width,}}>
+      <ImageBackground source={require("./KVR.jpg")} style={{height:Dimensions.get('window').height,width:Dimensions.get('window').width,}}>
       <FlatList
           data={main}
-          style={{opacity:0.7,backgroundColor:"#1D1D1D",width:"100%",marginBottom:RFValue(65)}}
+          style={{opacity:0.7,backgroundColor:"#1D1D1D",width:"100%",marginBottom:RFValue(32.5),borderColor:"white",borderWidth:RFValue(1),borderTopWidth:RFValue(0)}}
           renderItem={this.renderItem}
           keyExtractor={item => item.id}
           bounces={false}
@@ -116,6 +116,10 @@ const styles = StyleSheet.create({
     height:RFValue(65),
     backgroundColor:"#424242",
     alignItems:"center",
-    flexDirection:"row"
+    flexDirection:"row",
+    borderColor:"white",
+    borderTopColor:"black",
+    borderWidth:RFValue(1),
+    width:"100%"
   }
 })

@@ -50,13 +50,14 @@ export default class Chplist extends React.Component{
       <View style={styles.mainHeader}>
         <Image source={require("./BG.png")} style={{height:RFValue(160),width:RFValue(310),marginTop:RFValue(10),marginRight:RFValue(20)}}></Image>
       </View>
-      <ImageBackground source={require("./MV.jpg")} style={{width: Dimensions.get('window').width,height:"100%"}}>
+      <ImageBackground source={require("./MV.jpg")} style={{width: Dimensions.get('window').width,height:Dimensions.get('window').height}}>
       <FlatList
           data={CHPDATA}
-          style={{opacity:0.7,backgroundColor:"#1D1D1D",marginBottom:RFValue(105)}}
+          style={{opacity:0.7,backgroundColor:"#1D1D1D",marginBottom:RFValue(72.5),height:"100%",borderColor:"white",borderWidth:RFValue(1),borderTopWidth:RFValue(0)}}
           renderItem={this.renderItem}
           keyExtractor={item => item.id}
-          bounces={false} />
+          bounces={false}
+          showsVerticalScrollIndicator = {false} />
       </ImageBackground>
       </View>
     )
@@ -129,6 +130,10 @@ const styles = StyleSheet.create({
     backgroundColor:"#424242",
     justifyContent:"center",
     alignItems:"center",
+    width:"100%",
+    borderColor:"white",
+    borderTopColor:"black",
+    borderWidth:RFValue(1),
   },
 
 })
