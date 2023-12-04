@@ -18,14 +18,16 @@ import {RFValue} from "react-native-responsive-fontsize";
 const {width,height} = Dimensions.get('window')
 var addFactor = 0
 if(height>820){addFactor = (height - 820)*0.26}
-if(height<820){addFactor = (820 - height)*0.25}
+if(height<820){addFactor = (820 - height)*0.24}
 var mainHeight = 820
 export default class Verselist extends React.Component{
 
 
   renderItem =(item)=>{
+    var style1 = item.item.id == "1" ? styles.card1 : styles.card
+    var style2 = item.item.id == "18" ? styles.card2 : style1
     return(
-      <TouchableOpacity style={item.item.id == "1" ? styles.card1 : styles.card} 
+      <TouchableOpacity style={style2} 
       onPress={()=>{this.props.navigation.navigate("Hverse",{cid:item.item.id})}}>
         <View style={styles.main}>
         <View style={styles.sub}>
@@ -94,6 +96,20 @@ const styles = StyleSheet.create({
     borderRadius:RFValue(10),
     borderColor:"white",
     height:"auto"
+  },
+  card2:{
+    borderWidth:RFValue(1),
+    backgroundColor: "#323232",
+    borderRadius: RFValue(0),
+    width:"95%",
+    height:RFValue(75),
+    justifyContent:"center",
+    alignSelf:"center",
+    margin:RFValue(13),
+    marginBottom : StatusBar.currentHeight,
+    marginTop:RFValue(5),
+    borderRadius:RFValue(10),
+    borderColor:"white"
   },
   card1:{
     borderWidth:RFValue(1),
