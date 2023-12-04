@@ -18,6 +18,12 @@ import { useFonts } from "expo-font";
 import { useRoute } from "@react-navigation/native";
 import {RFValue} from "react-native-responsive-fontsize";
 import * as SplashScreen from 'expo-splash-screen';
+const {width,height} = Dimensions.get('window')
+console.log(`${height},${StatusBar.currentHeight}`)
+var addFactor = 0
+if(height>820){addFactor = (height - 820)*0.26}
+if(height<820){addFactor = (820 - height)*0.25}
+var mainHeight = 820
 export default class Chplist extends React.Component{
 
   renderItem =(item)=>{
@@ -45,15 +51,19 @@ export default class Chplist extends React.Component{
 
   render(){
     return(
-      <View style={{height:"100%",width:"100%",backgroundColor:"white"}}>
+      <View style={{height:"auto",width:"100%",backgroundColor:"white"}}>
       <SafeAreaView style={styles.droidSafeArea} />
       <View style={styles.mainHeader}>
         <Image source={require("./BG.png")} style={{height:RFValue(160),width:RFValue(310),marginTop:RFValue(10),marginRight:RFValue(20)}}></Image>
       </View>
-      <ImageBackground source={require("./MV.jpg")} style={{width: Dimensions.get('window').width,height:Dimensions.get('window').height}}>
+      <ImageBackground source={require("./MV.jpg")} style={{width: width,height:height}}>
       <FlatList
           data={CHPDATA}
-          style={{opacity:0.7,backgroundColor:"#1D1D1D",marginBottom:RFValue(72.5),height:"100%",borderColor:"white",borderWidth:RFValue(1),borderTopWidth:RFValue(0)}}
+          style={{
+            opacity:0.7,height:"auto",
+            backgroundColor:"#1D1D1D",borderColor:"white",borderWidth:RFValue(1),borderTopWidth:RFValue(0),borderBottomWidth:RFValue(1),
+            marginBottom:(mainHeight*0.1) + addFactor
+          }}
           renderItem={this.renderItem}
           keyExtractor={item => item.id}
           bounces={false}
