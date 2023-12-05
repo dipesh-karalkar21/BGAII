@@ -18,7 +18,7 @@ import {RFValue} from "react-native-responsive-fontsize";
 const {width,height} = Dimensions.get('window')
 var addFactor = 0
 if(height>820){addFactor = (height - 820)*0.26}
-if(height<820){addFactor = (820 - height)*0.24}
+if(height<820){addFactor = (820 - height)*0.25}
 var mainHeight = 820
 export default class Verselist extends React.Component{
 
@@ -59,6 +59,7 @@ export default class Verselist extends React.Component{
           renderItem={this.renderItem}
           keyExtractor={item => item.id}
           bounces={false}
+          initialNumToRender={20}
           />
       </ImageBackground>
       </View>
