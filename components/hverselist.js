@@ -77,6 +77,7 @@ constructor(props){
     return(
       <View style={{height:"100%",width:width,backgroundColor: "white"}}>
       <SafeAreaView style={styles.droidSafeArea} />
+      <ImageBackground source={require("./OIP.jpeg")} style={{width: width,height:height}}>
       <FlatList
         ref={ref =>(this.flatListRef = ref)}
         data={BGDATA}
@@ -88,6 +89,7 @@ constructor(props){
         bounces={false}
         getItemLayout={(data,index)=>({length : width , offset:width*index , index})}
           />
+        </ImageBackground>
       </View>
     )
   }
@@ -106,23 +108,22 @@ const styles = StyleSheet.create({
     fontWeight:"bold",
     marginLeft:RFValue(10),
     marginRight:RFValue(10),
-    textAlign :"center"
+    textAlign :"center",
+    elevation:10
   },
   droidSafeArea: {
     marginTop: Platform.OS === "android" ? StatusBar.currentHeight : RFValue(35)
   },
   card:{
-    backgroundColor: "#1D1D1D",
+    backgroundColor: "rgba(29, 29, 29 , 0.5)",
     width:width,
     justifyContent:"center",
     alignItems:"center",
   },
   main:{
-    backgroundColor: "#1D1D1D",
     width:"100%",
   },
   main2:{
-    backgroundColor: "#1D1D1D",
     width:"100%",
   },
   hr:{

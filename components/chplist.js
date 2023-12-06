@@ -62,8 +62,8 @@ export default class Chplist extends React.Component{
       <FlatList
           data={CHPDATA}
           style={{
-            opacity:0.7,height:height,
-            backgroundColor:"#1D1D1D",borderColor:"white",borderWidth:RFValue(1),borderTopWidth:RFValue(0),borderBottomWidth:RFValue(1),
+            height:height,
+            backgroundColor:"#",borderColor:"grey",borderWidth:RFValue(1),borderTopWidth:RFValue(0),borderBottomWidth:RFValue(1),
             marginBottom:(mainHeight*0.09) + addFactor
           }}
           renderItem={this.renderItem}
@@ -96,7 +96,7 @@ const styles = StyleSheet.create({
   },
   card:{
     borderWidth:RFValue(1),
-    backgroundColor: "#323232",
+    backgroundColor: "rgba(73, 73, 73,0.4)",
     borderRadius: RFValue(0),
     width:"95%",
     height:RFValue(75),
@@ -106,11 +106,11 @@ const styles = StyleSheet.create({
     marginBottom : RFValue(5),
     marginTop:RFValue(5),
     borderRadius:RFValue(10),
-    borderColor:"white"
+    borderColor:"grey"
   },
   card1:{
     borderWidth:RFValue(1),
-    backgroundColor: "#323232",
+    backgroundColor: "rgba(73, 73, 73,0.4)",
     borderRadius: RFValue(0),
     width:"95%",
     height:RFValue(75),
@@ -120,11 +120,11 @@ const styles = StyleSheet.create({
     marginBottom : RFValue(5),
     marginTop:RFValue(10),
     borderRadius:RFValue(10),
-    borderColor:"white"
+    borderColor:"grey"
   },
   card2:{
     borderWidth:RFValue(1),
-    backgroundColor: "#323232",
+    backgroundColor: "rgba(73, 73, 73,0.4)",
     borderRadius: RFValue(0),
     width:"95%",
     height:RFValue(75),
@@ -134,7 +134,7 @@ const styles = StyleSheet.create({
     marginBottom : StatusBar.currentHeight,
     marginTop:RFValue(5),
     borderRadius:RFValue(10),
-    borderColor:"white"
+    borderColor:"grey"
   },
   sub:{
     display:"flex",
@@ -157,8 +157,8 @@ const styles = StyleSheet.create({
     justifyContent:"center",
     alignItems:"center",
     width:"100%",
-    borderColor:"white",
-    borderTopColor:"black",
+    borderColor:"grey",
+    borderTopColor:"grey",
     borderWidth:RFValue(1),
   },
 

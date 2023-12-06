@@ -54,7 +54,7 @@ export default class Verselist extends React.Component{
       <ImageBackground source={require("./KVR.jpg")} style={{height:Dimensions.get('window').height,width:Dimensions.get('window').width,}}>
       <FlatList
           data={main}
-          style={{opacity:0.7,height:"auto",backgroundColor:"#1D1D1D",width:"100%",borderColor:"white",borderWidth:RFValue(1),borderTopWidth:RFValue(0),
+          style={{height:"auto",backgroundColor:"#",width:"100%",borderColor:"grey",borderWidth:RFValue(1),borderTopWidth:RFValue(0),
           marginBottom:(mainHeight*0.085) + addFactor}}
           renderItem={this.renderItem}
           keyExtractor={item => item.id}
@@ -86,7 +86,7 @@ const styles = StyleSheet.create({
   },
   card:{
     borderWidth:RFValue(1),
-    backgroundColor: "#323232",
+    backgroundColor: "rgba(73, 73, 73 ,0.4)",
     borderRadius: RFValue(0),
     width:"95%",
     justifyContent:"center",
@@ -95,12 +95,12 @@ const styles = StyleSheet.create({
     marginBottom : RFValue(5),
     marginTop:RFValue(5),
     borderRadius:RFValue(10),
-    borderColor:"white",
+    borderColor:"grey",
     height:"auto"
   },
   card2:{
     borderWidth:RFValue(1),
-    backgroundColor: "#323232",
+    backgroundColor: "rgba(73, 73, 73 ,0.4)",
     borderRadius: RFValue(0),
     width:"95%",
     height:RFValue(75),
@@ -110,11 +110,11 @@ const styles = StyleSheet.create({
     marginBottom : StatusBar.currentHeight,
     marginTop:RFValue(5),
     borderRadius:RFValue(10),
-    borderColor:"white"
+    borderColor:"grey"
   },
   card1:{
     borderWidth:RFValue(1),
-    backgroundColor: "#323232",
+    backgroundColor: "rgba(73, 73, 73 ,0.4)",
     borderRadius: RFValue(0),
     width:"95%",
     justifyContent:"center",
@@ -123,7 +123,7 @@ const styles = StyleSheet.create({
     marginBottom : RFValue(5),
     marginTop:RFValue(10),
     borderRadius:RFValue(10),
-    borderColor:"white",
+    borderColor:"grey",
     height:"auto"
   },
   sub:{
@@ -141,8 +141,8 @@ const styles = StyleSheet.create({
     backgroundColor:"#424242",
     alignItems:"center",
     flexDirection:"row",
-    borderColor:"white",
-    borderTopColor:"black",
+    borderColor:"grey",
+    borderTopColor:"grey",
     borderWidth:RFValue(1),
     width:"100%"
   }
