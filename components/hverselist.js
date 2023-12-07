@@ -115,7 +115,7 @@ const styles = StyleSheet.create({
     marginTop: Platform.OS === "android" ? StatusBar.currentHeight : RFValue(35)
   },
   card:{
-    backgroundColor: "rgba(29, 29, 29 , 0.5)",
+    backgroundColor: "rgba(61, 61, 61 , 0.4)",
     width:width,
     justifyContent:"center",
     alignItems:"center",
