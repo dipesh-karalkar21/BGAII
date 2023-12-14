@@ -3114,11 +3114,11 @@
       "data":{
         "vid":"1",
         "verno":"1",
-        "shlok":"",
-        "translit":"",
-        "synonyms":"",
-        "translate":"",
-        "purport":""
+        "shlok":"श्रीभगवानुवाच\n अनाश्रित: कर्मफलं कार्यं कर्म करोति य: ।\n स सन्न्यासी च योगी च न निरग्न‍िर्न चाक्रिय: ॥ १ ॥",
+        "translit":"śrī-bhagavān uvāca anāśritaḥ karma-phalaṁ kāryaṁ karma karoti yaḥ sa sannyāsī ca yogī ca na niragnir na cākriyaḥ",
+        "synonyms":"śrī-bhagavān uvāca — the Lord said; anāśritaḥ — without taking shelter; karma-phalam — of the result of work; kāryam — obligatory; karma — work; karoti — performs; yaḥ — one who; saḥ — he; sannyāsī — in the renounced order; ca — also; yogī — mystic; ca — also; na — not; niḥ — without; agniḥ — fire; na — nor; ca — also; akriyaḥ — without duty.",
+        "translate":"The Supreme Personality of Godhead said: One who is unattached to the fruits of his work and who works as he is obligated is in the renounced order of life, and he is the true mystic, not he who lights no fire and performs no duty.",
+        "purport":"In this chapter the Lord explains that the process of the eightfold yoga system is a means to control the mind and the senses. However, this is very difficult for people in general to perform, especially in the Age of Kali. Although the eightfold yoga system is recommended in this chapter, the Lord emphasizes that the process of karma-yoga, or acting in Kṛṣṇa consciousness, is better. Everyone acts in this world to maintain his family and their paraphernalia, but no one is working without some self-interest, some personal gratification, be it concentrated or extended. The criterion of perfection is to act in Kṛṣṇa consciousness, and not with a view to enjoying the fruits of work. To act in Kṛṣṇa consciousness is the duty of every living entity because all are constitutionally parts and parcels of the Supreme. The parts of the body work for the satisfaction of the whole body. The limbs of the body do not act for self-satisfaction but for the satisfaction of the complete whole. Similarly, the living entity who acts for satisfaction of the supreme whole and not for personal satisfaction is the perfect sannyāsī, the perfect yogī. The sannyāsīs sometimes artificially think that they have become liberated from all material duties, and therefore they cease to perform agnihotra yajñas (fire sacrifices), but actually they are self-interested because their goal is to become one with the impersonal Brahman. Such a desire is greater than any material desire, but it is not without self-interest. Similarly, the mystic yogī who practices the yoga system with half-open eyes, ceasing all material activities, desires some satisfaction for his personal self. But a person acting in Kṛṣṇa consciousness works for the satisfaction of the whole, without self-interest. A Kṛṣṇa conscious person has no desire for self-satisfaction. His criterion of success is the satisfaction of Kṛṣṇa, and thus he is the perfect sannyāsī, or perfect yogī. Lord Caitanya, the highest perfectional symbol of renunciation, prays in this way:\n\n na dhanaṁ na janaṁ na sundarīṁ\n kavitāṁ vā jagad-īśa kāmaye\n mama janmani janmanīśvare\n bhavatād bhaktir ahaitukī tvayi\n\n “O Almighty Lord, I have no desire to accumulate wealth, nor to enjoy beautiful women. Nor do I want any number of followers. What I want only is the causeless mercy of Your devotional service in my life, birth after birth.”"
       }
     },
     {
@@ -3128,6 +3128,34 @@
       "data":{
         "vid":"2",
         "verno":"2",
+        "shlok":"यं सन्न्यासमिति प्राहुर्योगं तं विद्धि पाण्डव ।\n न ह्यसन्न्यस्तसङ्कल्पो योगी भवति कश्चन ॥ २ ॥",
+        "translit":"yaṁ sannyāsam iti prāhur yogaṁ taṁ viddhi pāṇḍava na hy asannyasta-saṅkalpo yogī bhavati kaścana",
+        "synonyms":"yam — what; sannyāsam — renunciation; iti — thus; prāhuḥ — they say; yogam — linking with the Supreme; tam — that; viddhi — you must know; pāṇḍava — O son of Pāṇḍu; na — never; hi — certainly; asannyasta — without giving up; saṅkalpaḥ — desire for self-satisfaction; yogī — a mystic transcendentalist; bhavati — becomes; kaścana — anyone.",
+        "translate":"What is called renunciation you should know to be the same as yoga, or linking oneself with the Supreme, O son of Pāṇḍu, for one can never become a yogī unless he renounces the desire for sense gratification.",
+        "purport":"Real sannyāsa-yoga or bhakti means that one should know his constitutional position as the living entity, and act accordingly. The living entity has no separate independent identity. He is the marginal energy of the Supreme. When he is entrapped by material energy, he is conditioned, and when he is Kṛṣṇa conscious, or aware of the spiritual energy, then he is in his real and natural state of life. Therefore, when one is in complete knowledge, one ceases all material sense gratification, or renounces all kinds of sense gratificatory activities. This is practiced by the yogīs who restrain the senses from material attachment. But a person in Kṛṣṇa consciousness has no opportunity to engage his senses in anything which is not for the purpose of Kṛṣṇa. Therefore, a Kṛṣṇa conscious person is simultaneously a sannyāsī and a yogī. The purpose of knowledge and of restraining the senses, as prescribed in the jñāna and yoga processes, is automatically served in Kṛṣṇa consciousness. If one is unable to give up the activities of his selfish nature, then jñāna and yoga are of no avail. The real aim is for a living entity to give up all selfish satisfaction and to be prepared to satisfy the Supreme. A Kṛṣṇa conscious person has no desire for any kind of self-enjoyment. He is always engaged for the enjoyment of the Supreme. One who has no information of the Supreme must therefore be engaged in self-satisfaction, because no one can stand on the platform of inactivity. All purposes are perfectly served by the practice of Kṛṣṇa consciousness."
+      }
+    },
+    {
+      "id":"225",
+      "name":"Dhyāna-yoga",
+      "chp":"6",
+      "data":{
+        "vid":"3",
+        "verno":"3",
+        "shlok":"",
+        "translit":"",
+        "synonyms":"",
+        "translate":"",
+        "purport":""
+      }
+    },
+    {
+      "id":"226",
+      "name":"Dhyāna-yoga",
+      "chp":"6",
+      "data":{
+        "vid":"4",
+        "verno":"4",
         "shlok":"",
         "translit":"",
         "synonyms":"",
