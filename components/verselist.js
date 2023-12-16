@@ -26,9 +26,9 @@ export default class Verselist extends React.Component{
   renderItem =(item)=>{
     var style1 = item.item.id == "1" ? styles.card1 : styles.card
     var style2 = item.item.id == "18" ? styles.card2 : style1
-    return(
+    if(item.item.id > 0){return(
       <TouchableOpacity style={style2} 
-      onPress={()=>{this.props.navigation.navigate("Hverse",{cid:item.item.id})}}>
+      onPress={()=>{this.props.navigation.navigate("Hverse",{cid:item.item.id ,chpid : item.item.chp , chpname : item.item.name})}}>
         <View style={styles.main}>
         <View style={styles.sub}>
           <Text style={styles.subText}>{item.item.data.verno}</Text>
@@ -36,7 +36,7 @@ export default class Verselist extends React.Component{
         </View>
         </View>
       </TouchableOpacity>
-    )
+    )}
   }
 
 
@@ -49,9 +49,9 @@ export default class Verselist extends React.Component{
       <View style={{height:"auto",width:"100%",backgroundColor:"white"}}>
       <SafeAreaView style={styles.droidSafeArea} />
       <View style={styles.mainHeader}>
-        <Text style={{textAlign:"left",color:"white",fontSize:RFValue(15),marginLeft:RFValue(10),fontWeight:"bold"}}>Chapter {chpid1} : {chpogname} </Text>
+       <Text style={{textAlign:"center",color:"white",fontSize:RFValue(15),marginLeft:RFValue(10),fontWeight:"bold"}}>Chapter {chpid1} : {chpogname} </Text>
       </View>
-      <ImageBackground source={require("./KVR.jpg")} style={{height:Dimensions.get('window').height,width:Dimensions.get('window').width,}}>
+      <ImageBackground source={require("./KVR1.jpg")} resizeMode="stretch" style={{height:height}}>
       <FlatList
           data={main}
           style={{height:"auto",backgroundColor:"#",width:"100%",borderColor:"grey",borderWidth:RFValue(1),borderTopWidth:RFValue(0),
@@ -144,6 +144,7 @@ const styles = StyleSheet.create({
     borderColor:"grey",
     borderTopColor:"grey",
     borderWidth:RFValue(1),
-    width:"100%"
+    width:width,
+    justifyContent:"space-evenly"
   }
 })

@@ -58,7 +58,7 @@ export default class Chplist extends React.Component{
       <View style={styles.mainHeader}>
         <Image source={require("./BGBG.png")} style={{height:RFValue(120),width:RFValue(240),marginBottom:RFValue(20),marginRight:RFValue(30)}}></Image>
       </View>
-      <ImageBackground source={require("./MV.jpg")} style={{width: width,height:height}}>
+      <ImageBackground source={require("./MV1.jpg")} style={{height:height}} resizeMode="stretch" >
       <FlatList
           data={CHPDATA}
           style={{

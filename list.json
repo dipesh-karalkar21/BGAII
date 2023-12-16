@@ -2,11 +2,6 @@
     {
         "1":[
           {
-            "id":"0",
-            "name":"Observing the Armies on the Battlefield of Kurukṣetra",
-            "chp":"1"
-          },
-          {
             "id" : "1",
             "name":"Observing the Armies on the Battlefield of Kurukṣetra", 
             "chp" : "1", 
@@ -555,12 +550,7 @@
         ],
         "2":[
           {
-            "id":"0",
-            "name":"Contents of the Gitā Summarized",
-            "chp":"2"
-          },
-          {
-            "id":"1", 
+            "id":"40", 
             "name":"Contents of the Gitā Summarized", 
             "chp":"2",
             "data":{
@@ -574,7 +564,7 @@
             }
           },
           {
-            "id":"2", 
+            "id":"41", 
             "name":"Contents of the Gitā Summarized", 
             "chp":"2",
             "data":{
@@ -588,7 +578,7 @@
             }
           },
           {
-            "id":"3", 
+            "id":"42", 
             "name":"Contents of the Gitā Summarized", 
             "chp":"2",
             "data":{
@@ -602,7 +592,7 @@
             }
           },
           {
-            "id":"4", 
+            "id":"43", 
             "name":"Contents of the Gitā Summarized", 
             "chp":"2",
             "data":{
@@ -616,7 +606,7 @@
             }
           },
           {
-            "id":"5", 
+            "id":"44", 
             "name":"Contents of the Gitā Summarized", 
             "chp":"2",
             "data":{
@@ -630,7 +620,7 @@
             }
           },
           {
-            "id":"6", 
+            "id":"45", 
             "name":"Contents of the Gitā Summarized", 
             "chp":"2",
             "data":{
@@ -644,7 +634,7 @@
             }
           },
           {
-            "id":"7", 
+            "id":"46", 
             "name":"Contents of the Gitā Summarized", 
             "chp":"2",
             "data":{
@@ -658,7 +648,7 @@
             }
           },
           {
-            "id":"8", 
+            "id":"47", 
             "name":"Contents of the Gitā Summarized", 
             "chp":"2",
             "data":{         
@@ -672,7 +662,7 @@
             }
           },
           {
-            "id":"9", 
+            "id":"48", 
             "name":"Contents of the Gitā Summarized", 
             "chp":"2",
             "data":{         
@@ -686,7 +676,7 @@
             }
           },
           {
-            "id":"10", 
+            "id":"49", 
             "name":"Contents of the Gitā Summarized", 
             "chp":"2",
             "data":{         
@@ -700,7 +690,7 @@
             }
           },
           {
-            "id":"11", 
+            "id":"50", 
             "name":"Contents of the Gitā Summarized", 
             "chp":"2",
             "data":{         
@@ -714,7 +704,7 @@
             }
           },
           {
-            "id":"12", 
+            "id":"51", 
             "name":"Contents of the Gitā Summarized", 
             "chp":"2",
             "data":{         
@@ -728,7 +718,7 @@
             }
           },
           {
-            "id":"13", 
+            "id":"52", 
             "name":"Contents of the Gitā Summarized", 
             "chp":"2",
             "data":{         
@@ -742,7 +732,7 @@
             }
           },
           {
-            "id":"14", 
+            "id":"53", 
             "name":"Contents of the Gitā Summarized", 
             "chp":"2",
             "data":{         
@@ -756,7 +746,7 @@
             }
           },
           {
-            "id":"15", 
+            "id":"54", 
             "name":"Contents of the Gitā Summarized", 
             "chp":"2",
             "data":{         
@@ -770,7 +760,7 @@
             }
           },
           {
-            "id":"16", 
+            "id":"55", 
             "name":"Contents of the Gitā Summarized", 
             "chp":"2",
             "data":{         
@@ -784,7 +774,7 @@
             }
           },
           {
-            "id":"17", 
+            "id":"56", 
             "name":"Contents of the Gitā Summarized", 
             "chp":"2",
             "data":{         
@@ -798,7 +788,7 @@
             }
           },
           {
-            "id":"18", 
+            "id":"57", 
             "name":"Contents of the Gitā Summarized", 
             "chp":"2",
             "data":{         
@@ -812,7 +802,7 @@
             }
           },
           {
-            "id":"19", 
+            "id":"58", 
             "name":"Contents of the Gitā Summarized", 
             "chp":"2",
             "data":{         
@@ -826,7 +816,7 @@
             }
           },
           {
-            "id":"20", 
+            "id":"59", 
             "name":"Contents of the Gitā Summarized", 
             "chp":"2",
             "data":{         
@@ -840,7 +830,7 @@
             }
           },
           {
-            "id":"21", 
+            "id":"60", 
             "name":"Contents of the Gitā Summarized", 
             "chp":"2",
             "data":{         
@@ -854,7 +844,7 @@
             }
           },
           {
-            "id":"22", 
+            "id":"61", 
             "name":"Contents of the Gitā Summarized", 
             "chp":"2",
             "data":{         
@@ -868,7 +858,7 @@
             }
           },
           {
-            "id":"23", 
+            "id":"62", 
             "name":"Contents of the Gitā Summarized", 
             "chp":"2",
             "data":{         
@@ -882,7 +872,7 @@
             }
           },
           {
-            "id":"24", 
+            "id":"63", 
             "name":"Contents of the Gitā Summarized", 
             "chp":"2",
             "data":{         
@@ -896,7 +886,7 @@
             }
           },
           {
-            "id":"25", 
+            "id":"64", 
             "name":"Contents of the Gitā Summarized", 
             "chp":"2",
             "data":{         
@@ -910,7 +900,7 @@
             }
           },
           {
-            "id":"26", 
+            "id":"65", 
             "name":"Contents of the Gitā Summarized", 
             "chp":"2",
             "data":{         
@@ -924,7 +914,7 @@
             }
           },
           {
-            "id":"27", 
+            "id":"66", 
             "name":"Contents of the Gitā Summarized", 
             "chp":"2",
             "data":{         
@@ -938,7 +928,7 @@
             }
           },
           {
-            "id":"28", 
+            "id":"67", 
             "name":"Contents of the Gitā Summarized", 
             "chp":"2",
             "data":{         
@@ -952,7 +942,7 @@
             }
           },
           {
-            "id":"29", 
+            "id":"68", 
             "name":"Contents of the Gitā Summarized", 
             "chp":"2",
             "data":{         
@@ -966,7 +956,7 @@
             }
           },
           {
-            "id":"30", 
+            "id":"69", 
             "name":"Contents of the Gitā Summarized", 
             "chp":"2",
             "data":{         
@@ -980,7 +970,7 @@
             }
           },
           {
-            "id":"31", 
+            "id":"70", 
             "name":"Contents of the Gitā Summarized", 
             "chp":"2",
             "data":{         
@@ -994,7 +984,7 @@
             }
           },
           {
-            "id":"32", 
+            "id":"71", 
             "name":"Contents of the Gitā Summarized", 
             "chp":"2",
             "data":{         
@@ -1008,7 +998,7 @@
             }
           },
           {
-            "id":"33", 
+            "id":"72", 
             "name":"Contents of the Gitā Summarized", 
             "chp":"2",
             "data":{         
@@ -1022,7 +1012,7 @@
             }
           },
           {
-            "id":"34", 
+            "id":"73", 
             "name":"Contents of the Gitā Summarized", 
             "chp":"2",
             "data":{         
@@ -1036,7 +1026,7 @@
             }
           },
           {
-            "id":"35", 
+            "id":"74", 
             "name":"Contents of the Gitā Summarized", 
             "chp":"2",
             "data":{         
@@ -1050,7 +1040,7 @@
             }
           },
           {
-            "id":"36", 
+            "id":"75", 
             "name":"Contents of the Gitā Summarized", 
             "chp":"2",
             "data":{         
@@ -1064,7 +1054,7 @@
             }
           },
           {
-            "id":"37", 
+            "id":"76", 
             "name":"Contents of the Gitā Summarized", 
             "chp":"2",
             "data":{         
@@ -1078,7 +1068,7 @@
             }
           },
           {
-            "id":"38", 
+            "id":"77", 
             "name":"Contents of the Gitā Summarized", 
             "chp":"2",
             "data":{         
@@ -1092,7 +1082,7 @@
             }
           },
           {
-            "id":"39", 
+            "id":"78", 
             "name":"Contents of the Gitā Summarized", 
             "chp":"2",
             "data":{         
@@ -1106,7 +1096,7 @@
             }
           },
           {
-            "id":"40", 
+            "id":"79", 
             "name":"Contents of the Gitā Summarized", 
             "chp":"2",
             "data":{         
@@ -1120,7 +1110,7 @@
             }
           },
           {
-            "id":"41", 
+            "id":"80", 
             "name":"Contents of the Gitā Summarized", 
             "chp":"2",
             "data":{         
@@ -1134,7 +1124,7 @@
             }
           },
           {
-            "id":"42", 
+            "id":"81", 
             "name":"Contents of the Gitā Summarized", 
             "chp":"2",
             "data":{         
@@ -1148,11 +1138,11 @@
             }
           },
           {
-            "id":"43", 
+            "id":"82", 
             "name":"Contents of the Gitā Summarized", 
             "chp":"2",
             "data":{         
-                "vid":"43",
+                "vid":"44",
                 "verno":"44", 
                 "shlok":"भोगैश्वर्यप्रसक्तानां तयापहृतचेतसाम् ।\n व्यवसायात्मिका बुद्धिः समाधौ न विधीयते ॥ ४४ ॥", 
                 "translit":"bhogaiśvarya-prasaktānāṁ tayāpahṛta-cetasām vyavasāyātmikā buddhiḥ samādhau na vidhīyate",
@@ -1162,11 +1152,11 @@
             }
           },
           {
-            "id":"44", 
+            "id":"83", 
             "name":"Contents of the Gitā Summarized", 
             "chp":"2",
             "data":{         
-                "vid":"44",
+                "vid":"45",
                 "verno":"45", 
                 "shlok":"त्रैगुण्यविषया वेदा निस्त्रैगुण्यो भवार्जुन ।\n निर्द्वन्द्वो नित्यसत्त्वस्थो निर्योगक्षेम आत्मवान् ॥ ४५ ॥", 
                 "translit":"trai-guṇya-viṣayā vedā nistrai-guṇyo bhavārjuna nirdvandvo nitya-sattva-stho niryoga-kṣema ātmavān",
@@ -1176,11 +1166,11 @@
             }
           },
           {
-            "id":"45", 
+            "id":"84", 
             "name":"Contents of the Gitā Summarized", 
             "chp":"2",
             "data":{         
-                "vid":"45",
+                "vid":"46",
                 "verno":"46", 
                 "shlok":"यावानर्थ उदपाने सर्वतः सम्प्लुतोदके ।\n तावान्सर्वेषु वेदेषु ब्राह्मणस्य विजानतः ॥ ४६ ॥", 
                 "translit":"yāvān artha uda-pāne sarvataḥ samplutodake tāvān sarveṣu vedeṣu brāhmaṇasya vijānataḥ",
@@ -1190,11 +1180,11 @@
             }
           },
           {
-            "id":"46", 
+            "id":"85", 
             "name":"Contents of the Gitā Summarized", 
             "chp":"2",
             "data":{         
-                "vid":"46",
+                "vid":"47",
                 "verno":"47", 
                 "shlok":"कर्मण्येवाधिकारस्ते मा फलेषु कदाचन ।\n मा कर्मफलहेतुर्भूर्मा ते सङ्गोऽस्त्वकर्मणि ॥ ४७ ॥", 
                 "translit":"karmaṇy evādhikāras te mā phaleṣu kadācana mā karma-phala-hetur bhūr mā te saṅgo ’stv akarmaṇi",
@@ -1204,11 +1194,11 @@
             }
           },
           {
-            "id":"47", 
+            "id":"86", 
             "name":"Contents of the Gitā Summarized", 
             "chp":"2",
             "data":{         
-                "vid":"47",
+                "vid":"48",
                 "verno":"48", 
                 "shlok":"योगस्थः कुरु कर्माणि सङ्गं त्यक्त्वा धनञ्जय ।\n सिद्ध्यसिद्ध्योः समो भूत्वा समत्वं योग उच्यते ॥ ४८ ॥", 
                 "translit":"yoga-sthaḥ kuru karmāṇi saṅgaṁ tyaktvā dhanañ-jaya siddhy-asiddhyoḥ samo bhūtvā samatvaṁ yoga ucyate",
@@ -1218,11 +1208,11 @@
             }
           },
           {
-            "id":"48", 
+            "id":"87", 
             "name":"Contents of the Gitā Summarized", 
             "chp":"2",
             "data":{         
-                "vid":"48",
+                "vid":"49",
                 "verno":"49", 
                 "shlok":"दूरेण ह्यवरं कर्म बुद्धियोगाद्धनञ्जय ।\n बुद्धौ शरणमन्विच्छ कृपणाः फलहेतवः ॥ ४९ ॥", 
                 "translit":"dūreṇa hy avaraṁ karma buddhi-yogād dhanañ-jaya buddhau śaranam anviccha kṛpaṇāḥ phala-hetavaḥ",
@@ -1232,11 +1222,11 @@
             }
           },
           {
-            "id":"49", 
+            "id":"88", 
             "name":"Contents of the Gitā Summarized", 
             "chp":"2",
             "data":{         
-                "vid":"49",
+                "vid":"50",
                 "verno":"50", 
                 "shlok":"बुद्धियुक्तो जहातीह उभे सुकृतदुष्कृते ।\n तस्माद्योगाय युज्यस्व योगः कर्मसु कौशलम् ॥ ५० ॥", 
                 "translit":"buddhi-yukto jahātīha ubhe sukṛta-duṣkṛte tasmād yogāya yujyasva yogaḥ karmasu kauśalam",
@@ -1246,11 +1236,11 @@
             }
           },
           {
-            "id":"50", 
+            "id":"89", 
             "name":"Contents of the Gitā Summarized", 
             "chp":"2",
             "data":{         
-                "vid":"50",
+                "vid":"51",
                 "verno":"51", 
                 "shlok":"कर्मजं बुद्धियुक्ता हि फलं त्यक्त्वा मनीषिणः ।\n जन्मबन्धविनिर्मुक्ताः पदं गच्छन्त्यनामयम् ॥ ५१ ॥", 
                 "translit":"karma-jaṁ buddhi-yuktā hi phalaṁ tyaktvā manīṣiṇaḥ janma-bandha-vinirmuktāḥ padaṁ gacchanty anāmayam",
@@ -1260,11 +1250,11 @@
             }
           },
           {
-            "id":"51", 
+            "id":"90", 
             "name":"Contents of the Gitā Summarized", 
             "chp":"2",
             "data":{         
-                "vid":"51",
+                "vid":"52",
                 "verno":"52", 
                 "shlok":"यदा ते मोहकलिलं बुद्धिर्व्यतितरिष्यति ।\n तदा गन्तासि निर्वेदं श्रोतव्यस्य श्रुतस्य च ॥ ५२ ॥", 
                 "translit":"yadā te moha-kalilaṁ buddhir vyatitariṣyati tadā gantāsi nirvedaṁ śrotavyasya śrutasya ca",
@@ -1274,11 +1264,11 @@
             }
           },
           {
-            "id":"52", 
+            "id":"91", 
             "name":"Contents of the Gitā Summarized", 
             "chp":"2",
             "data":{         
-                "vid":"52",
+                "vid":"53",
                 "verno":"53", 
                 "shlok":"श्रुतिविप्रतिपन्ना ते यदा स्थास्यति निश्चला ।\n समाधावचला बुद्धिस्तदा योगमवाप्स्यसि ॥ ५३ ॥", 
                 "translit":"śruti-vipratipannā te yadā sthāsyati niścalā samādhāv acalā buddhis tadā yogam avāpsyasi",
@@ -1288,11 +1278,11 @@
             }
           },
           {
-            "id":"53", 
+            "id":"92", 
             "name":"Contents of the Gitā Summarized", 
             "chp":"2",
             "data":{         
-                "vid":"53",
+                "vid":"54",
                 "verno":"54", 
                 "shlok":"अर्जुन उवाच\n स्थितप्रज्ञस्य का भाषा समाधिस्थस्य केशव ।\n स्थितधीः किं प्रभाषेत किमासीत व्रजेत किम् ॥ ५४ ॥", 
                 "translit":"arjuna uvāca sthita-prajñasya kā bhāṣā samādhi-sthasya keśava sthita-dhīḥ kiṁ prabhāṣeta kim āsīta vrajeta kim",
@@ -1302,11 +1292,11 @@
             }
           },
           {
-            "id":"54", 
+            "id":"93", 
             "name":"Contents of the Gitā Summarized", 
             "chp":"2",
             "data":{         
-                "vid":"54",
+                "vid":"55",
                 "verno":"55", 
                 "shlok":"श्रीभगवानुवाच\n प्रजहाति यदा कामान्सर्वान्पार्थ मनोगतान् ।\n आत्मन्येवात्मना तुष्टः स्थितप्रज्ञस्तदोच्यते ॥ ५५ ॥", 
                 "translit":"śrī-bhagavān uvāca prajahāti yadā kāmān sarvān pārtha mano-gatān ātmany evātmanā tuṣṭaḥ sthita-prajñas tadocyate",
@@ -1316,11 +1306,11 @@
             }
           },
           {
-            "id":"55", 
+            "id":"94", 
             "name":"Contents of the Gitā Summarized", 
             "chp":"2",
             "data":{         
-                "vid":"55",
+                "vid":"56",
                 "verno":"56", 
                 "shlok":"दुःखेष्वनुद्विग्न‍मनाः सुखेषु विगतस्पृहः ।\n वीतरागभयक्रोधः स्थिधीर्मुनिरुच्यते ॥ ५६ ॥", 
                 "translit":"duḥkheṣv anudvigna-manāḥ sukheṣu vigata-spṛhaḥ vīta-rāga-bhaya-krodhaḥ sthita-dhīr munir ucyate",
@@ -1330,11 +1320,11 @@
             }
           },
           {
-            "id":"56", 
+            "id":"95", 
             "name":"Contents of the Gitā Summarized", 
             "chp":"2",
             "data":{         
-                "vid":"56",
+                "vid":"57",
                 "verno":"57", 
                 "shlok":"यः सर्वत्रानभिस्नेहस्तत्तत्प्राप्य श‍ुभाश‍ुभम् ।\n नाभिनन्दति न द्वेष्टि तस्य प्रज्ञा प्रतिष्ठिता ॥ ५७ ॥", 
                 "translit":"yaḥ sarvatrānabhisnehas tat tat prāpya śubhāśubham nābhinandati na dveṣṭi tasya prajñā pratiṣṭhitā",
@@ -1344,11 +1334,11 @@
             }
           },
           {
-            "id":"57", 
+            "id":"96", 
             "name":"Contents of the Gitā Summarized", 
             "chp":"2",
             "data":{         
-                "vid":"57",
+                "vid":"58",
                 "verno":"58", 
                 "shlok":"यदा संहरते चायं कूर्मोऽङ्गानीव सर्वशः ।\n इन्द्रियाणीन्द्रियार्थेभ्यस्तस्य प्रज्ञा प्रतिष्ठिता ॥ ५८ ॥", 
                 "translit":"yadā saṁharate cāyaṁ kūrmo ’ṅgānīva sarvaśaḥ indriyāṇīndriyārthebhyas tasya prajñā pratiṣṭhitā",
@@ -1358,11 +1348,11 @@
             }
           },
           {
-            "id":"58", 
+            "id":"97", 
             "name":"Contents of the Gitā Summarized", 
             "chp":"2",
             "data":{         
-                "vid":"58",
+                "vid":"59",
                 "verno":"59", 
                 "shlok":"विषया विनिवर्तन्ते निराहारस्य देहिनः ।\n रसवर्जं रसोऽप्यस्य परं दृष्ट्वा निवर्तते ॥ ५९ ॥", 
                 "translit":"viṣayā vinivartante nirāhārasya dehinaḥ rasa-varjaṁ raso ’py asya paraṁ dṛṣṭvā nivartate",
@@ -1372,11 +1362,11 @@
             }
           },
           {
-            "id":"59", 
+            "id":"98", 
             "name":"Contents of the Gitā Summarized", 
             "chp":"2",
             "data":{         
-                "vid":"59",
+                "vid":"60",
                 "verno":"60", 
                 "shlok":"यततो ह्यपि कौन्तेय पुरुषस्य विपश्चितः ।\n इन्द्रियाणि प्रमाथीनि हरन्ति प्रसभं मनः ॥ ६० ॥", 
                 "translit":"yatato hy api kaunteya puruṣasya vipaścitaḥ indriyāṇi pramāthīni haranti prasabhaṁ manaḥ",
@@ -1386,11 +1376,11 @@
             }
           },
           {
-            "id":"60", 
+            "id":"99", 
             "name":"Contents of the Gitā Summarized", 
             "chp":"2",
             "data":{         
-                "vid":"60",
+                "vid":"61",
                 "verno":"61", 
                 "shlok":"तानि सर्वाणि संयम्य युक्त आसीत मत्परः ।\n वशे हि यस्येन्द्रियाणि तस्य प्रज्ञा प्रतिष्ठिता ॥ ६१ ॥", 
                 "translit":"tāni sarvāṇi saṁyamya yukta āsīta mat-paraḥ vaśe hi yasyendriyāṇi tasya prajñā pratiṣṭhitā",
@@ -1400,11 +1390,11 @@
             }
           },
           {
-            "id":"61", 
+            "id":"100", 
             "name":"Contents of the Gitā Summarized", 
             "chp":"2",
             "data":{         
-                "vid":"61",
+                "vid":"62",
                 "verno":"62", 
                 "shlok":"ध्यायतो विषयान्पुंसः सङ्गस्तेषूपजायते ।\n सङ्गात्सञ्जायते कामः कामात्क्रोधोऽभिजायते ॥ ६२ ॥", 
                 "translit":"dhyāyato viṣayān puṁsaḥ saṅgas teṣūpajāyate saṅgāt sañjāyate kāmaḥ kāmāt krodho ’bhijāyate",
@@ -1414,11 +1404,11 @@
             }
           },
           {
-            "id":"62", 
+            "id":"101", 
             "name":"Contents of the Gitā Summarized", 
             "chp":"2",
             "data":{         
-                "vid":"62",
+                "vid":"63",
                 "verno":"63", 
                 "shlok":"क्रोधाद्भ‍वति सम्मोहः सम्मोहात्स्मृतिविभ्रमः ।\n स्मृतिभ्रंशाद्बुद्धिनाशो बुद्धिनाशात्प्रणश्यति ॥ ६३ ॥", 
                 "translit":"krodhād bhavati sammohaḥ sammohāt smṛti-vibhramaḥ smṛti-bhraṁśād buddhi-nāśo buddhi-nāśāt praṇaśyati",
@@ -1428,11 +1418,11 @@
             }
           },
           {
-            "id":"63", 
+            "id":"102", 
             "name":"Contents of the Gitā Summarized", 
             "chp":"2",
             "data":{         
-                "vid":"63",
+                "vid":"64",
                 "verno":"64", 
                 "shlok":"रागद्वेषविमुक्तैस्तु विषयनिन्द्रियैश्चरन् ।\n आत्मवश्यैर्विधेयात्मा प्रसादमधिगच्छति ॥ ६४ ॥", 
                 "translit":"rāga-dveṣa-vimuktais tu viṣayān indriyaiś caran ātma-vaśyair vidheyātmā prasādam adhigacchati",
@@ -1442,11 +1432,11 @@
             }
           },
           {
-            "id":"64", 
+            "id":"103", 
             "name":"Contents of the Gitā Summarized", 
             "chp":"2",
             "data":{         
-                "vid":"64",
+                "vid":"65",
                 "verno":"65", 
                 "shlok":"प्रसादे सर्वदुःखानां हानिरस्योपजायते ।\n प्रसन्नचेतसो ह्याश‍ु बुद्धिः पर्यवतिष्ठते ॥ ६५ ॥", 
                 "translit":"prasāde sarva-duḥkhānāṁ hānir asyopajāyate prasanna-cetaso hy āśu buddhiḥ paryavatiṣṭhate",
@@ -1456,11 +1446,11 @@
             }
           },
           {
-            "id":"65", 
+            "id":"104", 
             "name":"Contents of the Gitā Summarized", 
             "chp":"2",
             "data":{         
-                "vid":"65",
+                "vid":"66",
                 "verno":"66", 
                 "shlok":"नास्ति बुद्धिरयुक्तस्य न चायुक्तस्य भावना ।\n न चाभावयतः शान्तिरशान्तस्य कुतः सुखम् ॥ ६६ ॥", 
                 "translit":"nāsti buddhir ayuktasya na cāyuktasya bhāvanā na cābhāvayataḥ śāntir aśāntasya kutaḥ sukham",
@@ -1470,11 +1460,11 @@
             }
           },
           {
-            "id":"66", 
+            "id":"105", 
             "name":"Contents of the Gitā Summarized", 
             "chp":"2",
             "data":{         
-                "vid":"66",
+                "vid":"67",
                 "verno":"67", 
                 "shlok":"इन्द्रियाणां हि चरतां यन्मनोऽनुविधीयते ।\n तदस्य हरति प्रज्ञां वायुर्नावमिवाम्भसि ॥ ६७ ॥", 
                 "translit":"indriyāṇāṁ hi caratāṁ yan mano ’nuvidhīyate tad asya harati prajñāṁ vāyur nāvam ivāmbhasi",
@@ -1484,11 +1474,11 @@
             }
           },
           {
-            "id":"67", 
+            "id":"106", 
             "name":"Contents of the Gitā Summarized", 
             "chp":"2",
             "data":{         
-                "vid":"67",
+                "vid":"68",
                 "verno":"68", 
                 "shlok":"तस्माद्यस्य महाबाहो निगृहीतानि सर्वशः ।\n इन्द्रियाणीन्द्रियार्थेभ्यस्तस्य प्रज्ञा प्रतिष्ठिता ॥ ६८ ॥", 
                 "translit":"tasmād yasya mahā-bāho nigṛhītāni sarvaśaḥ indriyāṇīndriyārthebhyas tasya prajñā pratiṣṭhitā",
@@ -1498,11 +1488,11 @@
             }
           },
           {
-            "id":"68", 
+            "id":"107", 
             "name":"Contents of the Gitā Summarized", 
             "chp":"2",
             "data":{         
-                "vid":"68",
+                "vid":"69",
                 "verno":"69", 
                 "shlok":"या निशा सर्वभूतानां तस्यां जागर्ति संयमी ।\n यस्यां जाग्रति भूतानि सा निशा पश्यतो मुनेः ॥ ६९ ॥", 
                 "translit":"yā niśā sarva-bhūtānāṁ tasyāṁ jāgarti saṁyamī yasyāṁ jāgrati bhūtāni sā niśā paśyato muneḥ",
@@ -1512,11 +1502,11 @@
             }
           },
           {
-            "id":"69", 
+            "id":"108", 
             "name":"Contents of the Gitā Summarized", 
             "chp":"2",
             "data":{         
-                "vid":"69",
+                "vid":"70",
                 "verno":"70", 
                 "shlok":"आपूर्यमाणमचलप्रतिष्ठं समुद्रमापः प्रविशन्ति यद्वत् ।\n तद्वत्कामा यं प्रविशन्ति सर्वे स शान्तिमाप्‍नोति न कामकामी ॥ ७० ॥", 
                 "translit":"āpūryamāṇam acala-pratiṣṭhaṁ samudram āpaḥ praviśanti yadvat tadvat kāmā yaṁ praviśanti sarve sa śāntim āpnoti na kāma-kāmī",
@@ -1526,11 +1516,11 @@
             }
           },
           {
-            "id":"70", 
+            "id":"109", 
             "name":"Contents of the Gitā Summarized", 
             "chp":"2",
             "data":{         
-                "vid":"70",
+                "vid":"71",
                 "verno":"71", 
                 "shlok":"विहाय कामान्यः सर्वान्पुमांश्चरति निःस्पृहः ।\n निर्ममो निरहङ्कार स शान्तिमधिगच्छति ॥ ७१ ॥", 
                 "translit":"vihāya kāmān yaḥ sarvān pumāṁś carati niḥspṛhaḥ nirmamo nirahaṅkāraḥ sa śāntim adhigacchati",
@@ -1540,11 +1530,11 @@
             }
           },
           {
-            "id":"71", 
+            "id":"110", 
             "name":"Contents of the Gitā Summarized", 
             "chp":"2",
             "data":{         
-                "vid":"71",
+                "vid":"72",
                 "verno":"72", 
                 "shlok":"एषा ब्राह्मी स्थितिःपार्थ नैनां प्राप्य विमुह्यति ।\n स्थित्वास्यामन्तकालेऽपि ब्रह्मनिर्वाणमृच्छति ॥ ७२ ॥", 
                 "translit":"eṣā brāhmī sthitiḥ pārtha naināṁ prāpya vimuhyati sthitvāsyām anta-kāle ’pi brahma-nirvāṇam ṛcchati",
@@ -1556,12 +1546,7 @@
         ],
         "3":[
           {
-            "id":"0",
-            "name":"Karma-yoga",
-            "chp":"3"
-          },
-          {
-            "id":"1", 
+            "id":"111", 
             "name":"Karma-yoga", 
             "chp":"3",
             "data":{         
@@ -1575,7 +1560,7 @@
             }
           },
           {
-            "id":"2", 
+            "id":"112", 
             "name":"Karma-yoga", 
             "chp":"3",
             "data":{         
@@ -1589,7 +1574,7 @@
             }
           },
           {
-            "id":"3", 
+            "id":"113", 
             "name":"Karma-yoga", 
             "chp":"3",
             "data":{         
@@ -1603,7 +1588,7 @@
             }
           },
           {
-            "id":"4", 
+            "id":"114", 
             "name":"Karma-yoga", 
             "chp":"3",
             "data":{         
@@ -1617,7 +1602,7 @@
             }
           },
           {
-            "id":"5", 
+            "id":"115", 
             "name":"Karma-yoga", 
             "chp":"3",
             "data":{         
@@ -1631,7 +1616,7 @@
             }
           },
           {
-            "id":"6", 
+            "id":"116", 
             "name":"Karma-yoga", 
             "chp":"3",
             "data":{         
@@ -1645,7 +1630,7 @@
             }
           },
           {
-            "id":"7", 
+            "id":"117", 
             "name":"Karma-yoga", 
             "chp":"3",
             "data":{         
@@ -1659,7 +1644,7 @@
             }
           },
           {
-            "id":"8", 
+            "id":"118", 
             "name":"Karma-yoga", 
             "chp":"3",
             "data":{         
@@ -1673,7 +1658,7 @@
             }
           },
           {
-            "id":"9", 
+            "id":"119", 
             "name":"Karma-yoga", 
             "chp":"3",
             "data":{         
@@ -1687,7 +1672,7 @@
             }
           },
           {
-            "id":"10", 
+            "id":"120", 
             "name":"Karma-yoga", 
             "chp":"3",
             "data":{         
@@ -1701,7 +1686,7 @@
             }
           },
           {
-            "id":"11", 
+            "id":"121", 
             "name":"Karma-yoga", 
             "chp":"3",
             "data":{         
@@ -1715,7 +1700,7 @@
             }
           },
           {
-            "id":"12", 
+            "id":"122", 
             "name":"Karma-yoga", 
             "chp":"3",
             "data":{         
@@ -1729,7 +1714,7 @@
             }
           },
           {
-            "id":"13", 
+            "id":"123", 
             "name":"Karma-yoga", 
             "chp":"3",
             "data":{         
@@ -1743,7 +1728,7 @@
             }
           },
           {
-            "id":"14", 
+            "id":"124", 
             "name":"Karma-yoga", 
             "chp":"3",
             "data":{         
@@ -1757,7 +1742,7 @@
             }
           },
           {
-            "id":"15", 
+            "id":"125", 
             "name":"Karma-yoga", 
             "chp":"3",
             "data":{         
@@ -1771,7 +1756,7 @@
             }
           },
           {
-            "id":"16", 
+            "id":"126", 
             "name":"Karma-yoga", 
             "chp":"3",
             "data":{         
@@ -1785,7 +1770,7 @@
             }
           },
           {
-            "id":"17", 
+            "id":"127", 
             "name":"Karma-yoga", 
             "chp":"3",
             "data":{         
@@ -1799,7 +1784,7 @@
             }
           },
           {
-            "id":"18", 
+            "id":"128", 
             "name":"Karma-yoga", 
             "chp":"3",
             "data":{         
@@ -1813,7 +1798,7 @@
             }
           },
           {
-            "id":"19", 
+            "id":"129", 
             "name":"Karma-yoga", 
             "chp":"3",
             "data":{         
@@ -1827,7 +1812,7 @@
             }
           },
           {
-            "id":"20", 
+            "id":"130", 
             "name":"Karma-yoga", 
             "chp":"3",
             "data":{         
@@ -1841,7 +1826,7 @@
             }
           },
           {
-            "id":"21", 
+            "id":"131", 
             "name":"Karma-yoga", 
             "chp":"3",
             "data":{         
@@ -1855,7 +1840,7 @@
             }
           },
           {
-            "id":"22", 
+            "id":"132", 
             "name":"Karma-yoga", 
             "chp":"3",
             "data":{         
@@ -1869,7 +1854,7 @@
             }
           },
           {
-            "id":"23", 
+            "id":"133", 
             "name":"Karma-yoga", 
             "chp":"3",
             "data":{         
@@ -1883,7 +1868,7 @@
             }
           },
           {
-            "id":"24", 
+            "id":"134", 
             "name":"Karma-yoga", 
             "chp":"3",
             "data":{         
@@ -1897,7 +1882,7 @@
             }
           },
           {
-            "id":"25", 
+            "id":"135", 
             "name":"Karma-yoga", 
             "chp":"3",
             "data":{         
@@ -1911,7 +1896,7 @@
             }
           },
           {
-            "id":"26", 
+            "id":"136", 
             "name":"Karma-yoga", 
             "chp":"3",
             "data":{         
@@ -1925,7 +1910,7 @@
             }
           },
           {
-            "id":"27", 
+            "id":"137", 
             "name":"Karma-yoga", 
             "chp":"3",
             "data":{         
@@ -1939,7 +1924,7 @@
             }
           },
           {
-            "id":"28", 
+            "id":"138", 
             "name":"Karma-yoga", 
             "chp":"3",
             "data":{         
@@ -1953,7 +1938,7 @@
             }
           },
           {
-            "id":"29", 
+            "id":"139", 
             "name":"Karma-yoga", 
             "chp":"3",
             "data":{         
@@ -1967,7 +1952,7 @@
             }
           },
           {
-            "id":"30", 
+            "id":"140", 
             "name":"Karma-yoga", 
             "chp":"3",
             "data":{         
@@ -1981,7 +1966,7 @@
             }
           },
           {
-            "id":"31", 
+            "id":"141", 
             "name":"Karma-yoga", 
             "chp":"3",
             "data":{         
@@ -1995,7 +1980,7 @@
             }
           },
           {
-            "id":"32", 
+            "id":"142", 
             "name":"Karma-yoga", 
             "chp":"3",
             "data":{         
@@ -2009,7 +1994,7 @@
             }
           },
           {
-            "id":"33", 
+            "id":"143", 
             "name":"Karma-yoga", 
             "chp":"3",
             "data":{         
@@ -2023,7 +2008,7 @@
             }
           },
           {
-            "id":"34", 
+            "id":"144", 
             "name":"Karma-yoga", 
             "chp":"3",
             "data":{         
@@ -2037,7 +2022,7 @@
             }
           },
           {
-            "id":"35", 
+            "id":"145", 
             "name":"Karma-yoga", 
             "chp":"3",
             "data":{         
@@ -2051,7 +2036,7 @@
             }
           },
           {
-            "id":"36", 
+            "id":"146", 
             "name":"Karma-yoga", 
             "chp":"3",
             "data":{         
@@ -2065,7 +2050,7 @@
             }
           },
           {
-            "id":"37", 
+            "id":"147", 
             "name":"Karma-yoga", 
             "chp":"3",
             "data":{         
@@ -2079,7 +2064,7 @@
             }
           },
           {
-            "id":"38", 
+            "id":"148", 
             "name":"Karma-yoga", 
             "chp":"3",
             "data":{         
@@ -2093,7 +2078,7 @@
             }
           },
           {
-            "id":"39", 
+            "id":"149", 
             "name":"Karma-yoga", 
             "chp":"3",
             "data":{         
@@ -2107,7 +2092,7 @@
             }
           },
           {
-            "id":"40", 
+            "id":"150", 
             "name":"Karma-yoga", 
             "chp":"3",
             "data":{         
@@ -2121,7 +2106,7 @@
             }
           },
           {
-            "id":"41", 
+            "id":"151", 
             "name":"Karma-yoga", 
             "chp":"3",
             "data":{         
@@ -2135,7 +2120,7 @@
             }
           },
           {
-            "id":"42", 
+            "id":"152", 
             "name":"Karma-yoga", 
             "chp":"3",
             "data":{         
@@ -2149,7 +2134,7 @@
             }
           },
           {
-            "id":"43", 
+            "id":"153", 
             "name":"Karma-yoga", 
             "chp":"3",
             "data":{         
@@ -2165,12 +2150,7 @@
         ],
         "4":[
           {
-            "id":"0",
-            "name":"Transcendental Knowledge",
-            "chp":"4"
-          },
-          {
-            "id":"1", 
+            "id":"154", 
             "name":"Transcendental Knowledge", 
             "chp":"4",
             "data":{         
@@ -2184,7 +2164,7 @@
             }
           },
           {
-            "id":"2", 
+            "id":"155", 
             "name":"Transcendental Knowledge", 
             "chp":"4",
             "data":{         
@@ -2198,7 +2178,7 @@
             }
           },
           {
-            "id":"3", 
+            "id":"156", 
             "name":"Transcendental Knowledge", 
             "chp":"4",
             "data":{         
@@ -2212,7 +2192,7 @@
             }
           },
           {
-            "id":"4", 
+            "id":"157", 
             "name":"Transcendental Knowledge", 
             "chp":"4",
             "data":{         
@@ -2226,7 +2206,7 @@
             }
           },
           {
-            "id":"5", 
+            "id":"158", 
             "name":"Transcendental Knowledge", 
             "chp":"4",
             "data":{         
@@ -2240,7 +2220,7 @@
             }
           },
           {
-            "id":"6", 
+            "id":"159", 
             "name":"Transcendental Knowledge", 
             "chp":"4",
             "data":{         
@@ -2254,7 +2234,7 @@
             }
           },
           {
-            "id":"7", 
+            "id":"160", 
             "name":"Transcendental Knowledge", 
             "chp":"4",
             "data":{         
@@ -2268,7 +2248,7 @@
             }
           },
           {
-            "id":"8", 
+            "id":"161", 
             "name":"Transcendental Knowledge", 
             "chp":"4",
             "data":{         
@@ -2282,7 +2262,7 @@
             }
           },
           {
-            "id":"9", 
+            "id":"162", 
             "name":"Transcendental Knowledge", 
             "chp":"4",
             "data":{         
@@ -2296,7 +2276,7 @@
             }
           },
           {
-            "id":"10", 
+            "id":"163", 
             "name":"Transcendental Knowledge", 
             "chp":"4",
             "data":{         
@@ -2310,7 +2290,7 @@
             }
           },
           {
-            "id":"11", 
+            "id":"164", 
             "name":"Transcendental Knowledge", 
             "chp":"4",
             "data":{         
@@ -2324,7 +2304,7 @@
             }
           },
           {
-            "id":"12", 
+            "id":"165", 
             "name":"Transcendental Knowledge", 
             "chp":"4",
             "data":{         
@@ -2338,7 +2318,7 @@
             }
           },
           {
-            "id":"13", 
+            "id":"166", 
             "name":"Transcendental Knowledge", 
             "chp":"4",
             "data":{         
@@ -2352,7 +2332,7 @@
             }
           },
           {
-            "id":"14", 
+            "id":"167", 
             "name":"Transcendental Knowledge", 
             "chp":"4",
             "data":{         
@@ -2366,7 +2346,7 @@
             }
           },
           {
-            "id":"15", 
+            "id":"168", 
             "name":"Transcendental Knowledge", 
             "chp":"4",
             "data":{         
@@ -2380,7 +2360,7 @@
             }
           },
           {
-            "id":"16", 
+            "id":"169", 
             "name":"Transcendental Knowledge", 
             "chp":"4",
             "data":{         
@@ -2394,7 +2374,7 @@
             }
           },
           {
-            "id":"17", 
+            "id":"170", 
             "name":"Transcendental Knowledge", 
             "chp":"4",
             "data":{         
@@ -2408,7 +2388,7 @@
             }
           },
           {
-            "id":"18", 
+            "id":"171", 
             "name":"Transcendental Knowledge", 
             "chp":"4",
             "data":{         
@@ -2422,7 +2402,7 @@
             }
           },
           {
-            "id":"19", 
+            "id":"172", 
             "name":"Transcendental Knowledge", 
             "chp":"4",
             "data":{         
@@ -2436,7 +2416,7 @@
             }
           },
           {
-            "id":"20", 
+            "id":"173", 
             "name":"Transcendental Knowledge", 
             "chp":"4",
             "data":{         
@@ -2450,7 +2430,7 @@
             }
           },
           {
-            "id":"21", 
+            "id":"174", 
             "name":"Transcendental Knowledge", 
             "chp":"4",
             "data":{         
@@ -2464,7 +2444,7 @@
             }
           },
           {
-            "id":"22", 
+            "id":"175", 
             "name":"Transcendental Knowledge", 
             "chp":"4",
             "data":{         
@@ -2478,7 +2458,7 @@
             }
           },
           {
-            "id":"23", 
+            "id":"176", 
             "name":"Transcendental Knowledge", 
             "chp":"4",
             "data":{         
@@ -2492,7 +2472,7 @@
             }
           },
           {
-            "id":"24", 
+            "id":"177", 
             "name":"Transcendental Knowledge", 
             "chp":"4",
             "data":{         
@@ -2506,7 +2486,7 @@
             }
           },
           {
-            "id":"25", 
+            "id":"178", 
             "name":"Transcendental Knowledge", 
             "chp":"4",
             "data":{         
@@ -2520,7 +2500,7 @@
             }
           },
           {
-            "id":"26", 
+            "id":"179", 
             "name":"Transcendental Knowledge", 
             "chp":"4",
             "data":{         
@@ -2534,7 +2514,7 @@
             }
           },
           {
-            "id":"27", 
+            "id":"180", 
             "name":"Transcendental Knowledge", 
             "chp":"4",
             "data":{         
@@ -2548,7 +2528,7 @@
             }
           },
           {
-            "id":"28", 
+            "id":"181", 
             "name":"Transcendental Knowledge", 
             "chp":"4",
             "data":{         
@@ -2562,7 +2542,7 @@
             }
           },
           {
-            "id":"29", 
+            "id":"182", 
             "name":"Transcendental Knowledge", 
             "chp":"4",
             "data":{         
@@ -2576,7 +2556,7 @@
             }
           },
           {
-            "id":"30", 
+            "id":"183", 
             "name":"Transcendental Knowledge", 
             "chp":"4",
             "data":{         
@@ -2590,7 +2570,7 @@
             }
           },
           {
-            "id":"31", 
+            "id":"184", 
             "name":"Transcendental Knowledge", 
             "chp":"4",
             "data":{         
@@ -2604,7 +2584,7 @@
             }
           },
           {
-            "id":"32", 
+            "id":"185", 
             "name":"Transcendental Knowledge", 
             "chp":"4",
             "data":{         
@@ -2618,7 +2598,7 @@
             }
           },
           {
-            "id":"33", 
+            "id":"186", 
             "name":"Transcendental Knowledge", 
             "chp":"4",
             "data":{         
@@ -2632,7 +2612,7 @@
             }
           },
           {
-            "id":"34", 
+            "id":"187", 
             "name":"Transcendental Knowledge", 
             "chp":"4",
             "data":{         
@@ -2646,7 +2626,7 @@
             }
           },
           {
-            "id":"35", 
+            "id":"188", 
             "name":"Transcendental Knowledge", 
             "chp":"4",
             "data":{         
@@ -2660,7 +2640,7 @@
             }
           },
           {
-            "id":"36", 
+            "id":"189", 
             "name":"Transcendental Knowledge", 
             "chp":"4",
             "data":{         
@@ -2674,7 +2654,7 @@
             }
           },
           {
-            "id":"37", 
+            "id":"190", 
             "name":"Transcendental Knowledge", 
             "chp":"4",
             "data":{         
@@ -2688,7 +2668,7 @@
             }
           },
           {
-            "id":"38", 
+            "id":"191", 
             "name":"Transcendental Knowledge", 
             "chp":"4",
             "data":{         
@@ -2702,7 +2682,7 @@
             }
           },
           {
-            "id":"39", 
+            "id":"192", 
             "name":"Transcendental Knowledge", 
             "chp":"4",
             "data":{         
@@ -2716,7 +2696,7 @@
             }
           },
           {
-            "id":"40", 
+            "id":"193", 
             "name":"Transcendental Knowledge", 
             "chp":"4",
             "data":{         
@@ -2730,7 +2710,7 @@
             }
           },
           {
-            "id":"41", 
+            "id":"194", 
             "name":"Transcendental Knowledge", 
             "chp":"4",
             "data":{         
@@ -2744,7 +2724,7 @@
             }
           },
           {
-            "id":"42", 
+            "id":"195", 
             "name":"Transcendental Knowledge", 
             "chp":"4",
             "data":{         
@@ -2760,12 +2740,7 @@
         ],
         "5":[
         {
-          "id":"0",
-          "name":"Karma-yoga – Action in Kṛṣṇa Consciousness",
-          "chp":"5"
-        },
-        {
-          "id":"1", 
+          "id":"196", 
           "name":"Karma-yoga – Action in Kṛṣṇa Consciousness", 
           "chp":"5",
           "data":{         
@@ -2779,7 +2754,7 @@
           }
         },
         {
-          "id":"2",
+          "id":"197",
           "name":"Karma-yoga – Action in Kṛṣṇa Consciousness",
           "chp":"5",
           "data":{
@@ -2793,7 +2768,7 @@
           }
         },
         {
-          "id":"3",
+          "id":"198",
           "name":"Karma-yoga – Action in Kṛṣṇa Consciousness",
           "chp":"5",
           "data":{
@@ -2807,7 +2782,7 @@
           }
         },
         {
-          "id":"4",
+          "id":"199",
           "name":"Karma-yoga – Action in Kṛṣṇa Consciousness",
           "chp":"5",
           "data":{
@@ -2821,7 +2796,7 @@
           }
         },
         {
-          "id":"5",
+          "id":"200",
           "name":"Karma-yoga – Action in Kṛṣṇa Consciousness",
           "chp":"5",
           "data":{
@@ -2835,7 +2810,7 @@
           }
         },
         {
-          "id":"6",
+          "id":"201",
           "name":"Karma-yoga – Action in Kṛṣṇa Consciousness",
           "chp":"5",
           "data":{
@@ -2849,7 +2824,7 @@
           }
         },
         {
-          "id":"7",
+          "id":"202",
           "name":"Karma-yoga – Action in Kṛṣṇa Consciousness",
           "chp":"5",
           "data":{
@@ -2863,7 +2838,7 @@
           }
         },
         {
-          "id":"8",
+          "id":"203",
           "name":"Karma-yoga – Action in Kṛṣṇa Consciousness",
           "chp":"5",
           "data":{
@@ -2877,7 +2852,7 @@
           }
         },
         {
-          "id":"9",
+          "id":"204",
           "name":"Karma-yoga – Action in Kṛṣṇa Consciousness",
           "chp":"5",
           "data":{
@@ -2891,7 +2866,7 @@
           }
         },
         {
-          "id":"10",
+          "id":"205",
           "name":"Karma-yoga – Action in Kṛṣṇa Consciousness",
           "chp":"5",
           "data":{
@@ -2905,7 +2880,7 @@
           }
         },
         {
-          "id":"11",
+          "id":"206",
           "name":"Karma-yoga – Action in Kṛṣṇa Consciousness",
           "chp":"5",
           "data":{
@@ -2919,7 +2894,7 @@
           }
         },
         {
-          "id":"12",
+          "id":"207",
           "name":"Karma-yoga – Action in Kṛṣṇa Consciousness",
           "chp":"5",
           "data":{
@@ -2933,7 +2908,7 @@
           }
         },
         {
-          "id":"13",
+          "id":"208",
           "name":"Karma-yoga – Action in Kṛṣṇa Consciousness",
           "chp":"5",
           "data":{
@@ -2947,7 +2922,7 @@
           }
         },
         {
-          "id":"14",
+          "id":"209",
           "name":"Karma-yoga – Action in Kṛṣṇa Consciousness",
           "chp":"5",
           "data":{
@@ -2961,7 +2936,7 @@
           }
         },
         {
-          "id":"15",
+          "id":"210",
           "name":"Karma-yoga – Action in Kṛṣṇa Consciousness",
           "chp":"5",
           "data":{
@@ -2975,7 +2950,7 @@
           }
         },
         {
-          "id":"16",
+          "id":"211",
           "name":"Karma-yoga – Action in Kṛṣṇa Consciousness",
           "chp":"5",
           "data":{
@@ -2989,7 +2964,7 @@
           }
         },
         {
-          "id":"17",
+          "id":"212",
           "name":"Karma-yoga – Action in Kṛṣṇa Consciousness",
           "chp":"5",
           "data":{
@@ -3003,7 +2978,7 @@
           }
         },
         {
-          "id":"18",
+          "id":"213",
           "name":"Karma-yoga – Action in Kṛṣṇa Consciousness",
           "chp":"5",
           "data":{
@@ -3017,7 +2992,7 @@
           }
         },
         {
-          "id":"19",
+          "id":"214",
           "name":"Karma-yoga – Action in Kṛṣṇa Consciousness",
           "chp":"5",
           "data":{
@@ -3031,7 +3006,7 @@
           }
         },
         {
-          "id":"20",
+          "id":"215",
           "name":"Karma-yoga – Action in Kṛṣṇa Consciousness",
           "chp":"5",
           "data":{
@@ -3045,7 +3020,7 @@
           }
         },
         {
-          "id":"21",
+          "id":"216",
           "name":"Karma-yoga – Action in Kṛṣṇa Consciousness",
           "chp":"5",
           "data":{
@@ -3059,7 +3034,7 @@
           }
         },
         {
-          "id":"22",
+          "id":"217",
           "name":"Karma-yoga – Action in Kṛṣṇa Consciousness",
           "chp":"5",
           "data":{
@@ -3073,7 +3048,7 @@
           }
         },
         {
-          "id":"23",
+          "id":"218",
           "name":"Karma-yoga – Action in Kṛṣṇa Consciousness",
           "chp":"5",
           "data":{
@@ -3087,7 +3062,7 @@
           }
         },
         {
-          "id":"24",
+          "id":"219",
           "name":"Karma-yoga – Action in Kṛṣṇa Consciousness",
           "chp":"5",
           "data":{
@@ -3101,7 +3076,7 @@
           }
         },
         {
-          "id":"25",
+          "id":"220",
           "name":"Karma-yoga – Action in Kṛṣṇa Consciousness",
           "chp":"5",
           "data":{
@@ -3115,7 +3090,7 @@
           }
         },
         {
-          "id":"26",
+          "id":"221",
           "name":"Karma-yoga – Action in Kṛṣṇa Consciousness",
           "chp":"5",
           "data":{
@@ -3129,7 +3104,7 @@
           }
         },
         {
-          "id":"27",
+          "id":"222",
           "name":"Karma-yoga – Action in Kṛṣṇa Consciousness",
           "chp":"5",
           "data":{
@@ -3142,6 +3117,6 @@
             "purport":"The conditioned souls within the clutches of the illusory energy are all anxious to attain peace in the material world. But they do not know the formula for peace, which is explained in this part of the Bhagavad-gītā. The greatest peace formula is simply this: Lord Kṛṣṇa is the beneficiary in all human activities. Men should offer everything to the transcendental service of the Lord because He is the proprietor of all planets and the demigods thereon. No one is greater than He. He is greater than the greatest of the demigods, Lord Śiva and Lord Brahmā. In the Vedas (Śvetāśvatara Upaniṣad 6.7) the Supreme Lord is described as tam īśvarāṇāṁ paramaṁ maheśvaraṁ. Under the spell of illusion, living entities are trying to be lords of all they survey, but actually they are dominated by the material energy of the Lord. The Lord is the master of material nature, and the conditioned souls are under the stringent rules of material nature. Unless one understands these bare facts, it is not possible to achieve peace in the world either individually or collectively. This is the sense of Kṛṣṇa consciousness: Lord Kṛṣṇa is the supreme predominator, and all living entities, including the great demigods, are His subordinates. One can attain perfect peace only in complete Kṛṣṇa consciousness. This Fifth Chapter is a practical explanation of Kṛṣṇa consciousness, generally known as karma-yoga. The question of mental speculation as to how karma-yoga can give liberation is answered herewith. To work in Kṛṣṇa consciousness is to work with the complete knowledge of the Lord as the predominator. Such work is not different from transcendental knowledge. Direct Kṛṣṇa consciousness is bhakti-yoga, and jñāna-yoga is a path leading to bhakti-yoga. Kṛṣṇa consciousness means to work in full knowledge of one’s relationship with the Supreme Absolute, and the perfection of this consciousness is full knowledge of Kṛṣṇa, or the Supreme Personality of Godhead. A pure soul is the eternal servant of God as His fragmental part and parcel. He comes into contact with māyā (illusion) due to the desire to lord it over māyā, and that is the cause of his many sufferings. As long as he is in contact with matter, he has to execute work in terms of material necessities. Kṛṣṇa consciousness, however, brings one into spiritual life even while one is within the jurisdiction of matter, for it is an arousing of spiritual existence by practice in the material world. The more one is advanced, the more he is freed from the clutches of matter. The Lord is not partial toward anyone. Everything depends on one’s practical performance of duties in Kṛṣṇa consciousness, which helps one control the senses in every respect and conquer the influence of desire and anger. And one who stands fast in Kṛṣṇa consciousness, controlling the abovementioned passions, remains factually in the transcendental stage, or brahma-nirvāṇa. The eightfold yoga mysticism is automatically practiced in Kṛṣṇa consciousness because the ultimate purpose is served. There is a gradual process of elevation in the practice of yama, niyama, āsana, prāṇāyāma, pratyāhāra, dhāraṇā, dhyāna and samādhi. But these only preface perfection by devotional service, which alone can award peace to the human being. It is the highest perfection of life."
           }
         }
-        ]
+       ]
     }
 ]
