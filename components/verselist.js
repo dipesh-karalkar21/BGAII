@@ -17,17 +17,16 @@ import chplist from "../chplist.json"
 import {RFValue} from "react-native-responsive-fontsize";
 const {width,height} = Dimensions.get('window')
 var addFactor = 0
-if(height>820){addFactor = (height - 820)*0.26}
-if(height<820){addFactor = (820 - height)*0.25}
-var mainHeight = 820
+var mainHeight = height-width
+if(mainHeight>300){addFactor = height*0.09}
+if(mainHeight>400){addFactor = height*0.065}
+if(mainHeight<300){addFactor = height*0.09}
 export default class Verselist extends React.Component{
 
 
   renderItem =(item)=>{
-    var style1 = item.item.id == "1" ? styles.card1 : styles.card
-    var style2 = item.item.id == "18" ? styles.card2 : style1
     if(item.item.id > 0){return(
-      <TouchableOpacity style={style2} 
+      <TouchableOpacity style={styles.card} 
       onPress={()=>{this.props.navigation.navigate("Hverse",{cid:item.item.id ,chpid : item.item.chp , chpname : item.item.name})}}>
         <View style={styles.main}>
         <View style={styles.sub}>
@@ -54,9 +53,13 @@ export default class Verselist extends React.Component{
       <ImageBackground source={require("./KVR1.jpg")} resizeMode="stretch" style={{height:height}}>
       <FlatList
           data={main}
-          style={{height:"auto",backgroundColor:"#",width:"100%",borderColor:"grey",borderWidth:RFValue(1),borderTopWidth:RFValue(0),
-          marginBottom:(mainHeight*0.085) + addFactor}}
+          style={{height:"auto",backgroundColor:"#",width:"100%",borderColor:"grey",borderWidth:RFValue(1),borderTopWidth:RFValue(0),}}
           renderItem={this.renderItem}
+          ListFooterComponent={()=>{
+            return(
+              <View style={{height:(mainHeight*0.12) + addFactor}} ></View>
+            )
+          }}
           keyExtractor={item => item.id}
           bounces={false}
           initialNumToRender={20}
@@ -95,35 +98,7 @@ const styles = StyleSheet.create({
     marginBottom : RFValue(5),
     marginTop:RFValue(5),
     borderRadius:RFValue(10),
-    borderColor:"grey",
-    height:"auto"
-  },
-  card2:{
-    borderWidth:RFValue(1),
-    backgroundColor: "rgba(73, 73, 73 ,0.4)",
-    borderRadius: RFValue(0),
-    width:"95%",
-    height:RFValue(75),
-    justifyContent:"center",
-    alignSelf:"center",
-    margin:RFValue(13),
-    marginBottom : StatusBar.currentHeight,
-    marginTop:RFValue(5),
-    borderRadius:RFValue(10),
-    borderColor:"grey"
-  },
-  card1:{
-    borderWidth:RFValue(1),
-    backgroundColor: "rgba(73, 73, 73 ,0.4)",
-    borderRadius: RFValue(0),
-    width:"95%",
-    justifyContent:"center",
-    alignSelf:"center",
-    margin:RFValue(13),
-    marginBottom : RFValue(5),
-    marginTop:RFValue(10),
-    borderRadius:RFValue(10),
-    borderColor:"grey",
+    borderColor:"black",
     height:"auto"
   },
   sub:{

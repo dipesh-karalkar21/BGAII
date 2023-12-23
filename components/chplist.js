@@ -19,19 +19,18 @@ import { useRoute } from "@react-navigation/native";
 import {RFValue} from "react-native-responsive-fontsize";
 import * as SplashScreen from 'expo-splash-screen';
 const {width,height} = Dimensions.get('window')
-console.log(`${height},${width}`)
 var addFactor = 0
-if(height>819){addFactor = (height - 819)*0.26}
-if(height<819){addFactor = (819 - height)*0.25}
-var mainHeight = 819
+var mainHeight = height-width
+if(mainHeight>300){addFactor = height*0.09}
+if(mainHeight>400){addFactor = height*0.065}
+if(mainHeight<300){addFactor = height*0.09}
+console.log(`${mainHeight},${height},${addFactor}`)
 export default class Chplist extends React.Component{
 
   renderItem =(item)=>{
     var id = item.item.id < 10 ? "0"+item.item.id : item.item.id
-    var style1 = item.item.id == "1" ? styles.card1 : styles.card
-    var style2 = item.item.id == "18" ? styles.card2 : style1
     return(
-    <TouchableOpacity style={style2} 
+    <TouchableOpacity style={styles.card} 
       onPress={()=>{this.props.navigation.navigate("Verse",
         {
           chid : item.item.id,
@@ -63,10 +62,13 @@ export default class Chplist extends React.Component{
           data={CHPDATA}
           style={{
             height:height,
-            backgroundColor:"#",borderColor:"grey",borderWidth:RFValue(1),borderTopWidth:RFValue(0),borderBottomWidth:RFValue(1),
-            marginBottom:(mainHeight*0.09) + addFactor
-          }}
+            backgroundColor:"#",borderColor:"grey",borderWidth:RFValue(1),borderTopWidth:RFValue(0),borderBottomWidth:RFValue(1),}}
           renderItem={this.renderItem}
+          ListFooterComponent={()=>{
+            return(
+              <View style={{height:(mainHeight*0.12) + addFactor}} ></View>
+            )
+          }}
           keyExtractor={item => item.id}
           bounces={false}
           showsVerticalScrollIndicator = {false} />
@@ -106,35 +108,7 @@ const styles = StyleSheet.create({
     marginBottom : RFValue(5),
     marginTop:RFValue(5),
     borderRadius:RFValue(10),
-    borderColor:"grey"
-  },
-  card1:{
-    borderWidth:RFValue(1),
-    backgroundColor: "rgba(73, 73, 73,0.4)",
-    borderRadius: RFValue(0),
-    width:"95%",
-    height:RFValue(75),
-    justifyContent:"center",
-    alignSelf:"center",
-    margin:RFValue(13),
-    marginBottom : RFValue(5),
-    marginTop:RFValue(10),
-    borderRadius:RFValue(10),
-    borderColor:"grey"
-  },
-  card2:{
-    borderWidth:RFValue(1),
-    backgroundColor: "rgba(73, 73, 73,0.4)",
-    borderRadius: RFValue(0),
-    width:"95%",
-    height:RFValue(75),
-    justifyContent:"center",
-    alignSelf:"center",
-    margin:RFValue(13),
-    marginBottom : StatusBar.currentHeight,
-    marginTop:RFValue(5),
-    borderRadius:RFValue(10),
-    borderColor:"grey"
+    borderColor:"black"
   },
   sub:{
     display:"flex",
