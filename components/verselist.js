@@ -12,7 +12,6 @@ import {
   Dimensions
   } from "react-native";
 import { useRoute } from "@react-navigation/native";
-import BGDATA from "../BGDATA.json";
 import chplist from "../chplist.json"
 import {RFValue} from "react-native-responsive-fontsize";
 const {width,height} = Dimensions.get('window')
