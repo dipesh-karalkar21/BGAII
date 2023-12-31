@@ -29,6 +29,7 @@ const Hverse1=(data)=>{
   var cid1 = data.data
   const[chps,setChps] = useState(chplist[0][chpid])
   const[cid,setCid] = useState(chps.length - 2)
+  //const[cid,setCid] = useState(cid1)
   const[refreshing,setRefreshing] = useState(false);
   const[zIndex,setZindex]=useState(0)
   var flatListRef = React.useRef<FlatList>(null);   
@@ -42,31 +43,31 @@ const Hverse1=(data)=>{
       <View style={[styles.card]}>
       <ScrollView contentContainerStyle={styles.main} showsVerticalScrollIndicator={false}>
       <Text> </Text>
-      <Text style={[styles.subText,{color:"#F12100",fontSize:RFValue(17.5)}]}>
+      <Text style={[styles.subText,{fontSize:RFValue(17.5)}]}>
         Chapter {item.item.chp} Verse {item.item.data.verno}
       </Text>
       <Text> </Text>
       <Text style={styles.subText}>{item.item.data.shlok}</Text>
       <Text> </Text>
-      <Text style={[styles.subText,{color:"#F12100",fontSize:RFValue(15)}]}>
+      <Text style={[styles.subText,{fontSize:RFValue(17)}]}>
         Transliteration
         </Text>
         <Text> </Text>
       <Text style={styles.subText}>{item.item.data.translit}</Text>
       <Text> </Text>
-      <Text style={[styles.subText,{color:"#F12100",fontSize:RFValue(15)}]}>
+      <Text style={[styles.subText,{fontSize:RFValue(17)}]}>
         Synonyms
         </Text>
         <Text> </Text>
       <Text style={styles.subText}>{item.item.data.synonyms}</Text>
       <Text> </Text>
-      <Text style={[styles.subText,{color:"#F12100",fontSize:RFValue(15)}]}>
+      <Text style={[styles.subText,{fontSize:RFValue(17)}]}>
         Translation
         </Text>
         <Text> </Text>
       <Text style={styles.subText}>{item.item.data.translate}</Text>
       <Text> </Text>
-      <Text style={[styles.subText,{color:"#F12100",fontSize:RFValue(15)}]}>
+      <Text style={[styles.subText,{fontSize:RFValue(17)}]}>
         Purport
         </Text>
         <Text> </Text>
@@ -79,10 +80,10 @@ const Hverse1=(data)=>{
     else{
       return(
         <View style={{height:height,width:width,justifyContent:"center",alignItems:"center"}}>
-          <Text style={[styles.subText,{fontSize:RFValue(20),color:"#FFFF00"}]}>Chapter {item.item.chp}</Text>
-          <Text style={[styles.subText,{fontSize:RFValue(20),color:"#FFFF00"}]}> {item.item.name} </Text>
+          <Text style={[styles.subText,{fontSize:RFValue(20)}]}>Chapter {item.item.chp}</Text>
+          <Text style={[styles.subText,{fontSize:RFValue(20)}]}> {item.item.name} </Text>
           <TouchableOpacity onPress={loadMorePrevious} style={{display : item.item.chp == 1 ? "none" : "flex"}} >
-            <Text style={[styles.subText,{fontSize:RFValue(20),color:"#2E2E2E"}]}>Previous Chapter </Text>
+            <Text style={[styles.subText,{fontSize:RFValue(20)}]}>Previous Chapter </Text>
           </TouchableOpacity>
         </View>
       )  
@@ -92,11 +93,11 @@ const Hverse1=(data)=>{
   const ListFooterComponent =useCallback(()=>{
     return(
       <View style={{height:height,width:width,justifyContent:"center",alignItems:"center"}}>
-        <Text style={[styles.subText,{fontSize:RFValue(20),color:"#FFFF00"}]}>Thus Ends Bhagavad Gita</Text>
-        <Text style={[styles.subText,{fontSize:RFValue(20),color:"#FFFF00"}]}>Chapter {chpid}</Text>
+        <Text style={[styles.subText,{fontSize:RFValue(20)}]}>Thus Ends Bhagavad Gita</Text>
+        <Text style={[styles.subText,{fontSize:RFValue(20)}]}>Chapter {chpid}</Text>
         <Text> </Text>
         <TouchableOpacity onPress={loadMore} style={{display : chpid == 18 ? "none" : "flex"}} >
-          <Text style={[styles.subText,{fontSize:RFValue(20),color:"#2E2E2E"}]}>Next Chapter </Text>
+          <Text style={[styles.subText,{fontSize:RFValue(20)}]}>Next Chapter </Text>
         </TouchableOpacity>
       </View>
     )
@@ -153,9 +154,8 @@ const Hverse1=(data)=>{
       <SafeAreaView style={styles.droidSafeArea} />
       <ImageBackground source={require("./OIP2.jpg")} style={{height:height,width:width,justifyContent:"center",alignItems:"center"}} resizeMode="stretch">
         <Animated.Image source={require("./morPankh1.png")} style={{marginTop:RFValue(70),width:210,height:210,transform: [{rotate: spinDeg,},{scaleX:1}]}} />
-        <View style={{position:"absolute",fontWeight:"bold",width:width,height:height,
-        justifyContent:"flex-end",alignItems:"flex-end"}}>
-          <Text style={{fontSize:RFValue(25),color:"white",margin:RFValue(10)}}>
+        <View style={{position:"absolute",fontWeight:"bold",width:width,height:height}}>
+          <Text style={{fontSize:RFValue(25),color:"white",margin:RFValue(10),textAlign:"right",}}>
             Loading...  
           </Text></View>
       </ImageBackground>
@@ -165,7 +165,7 @@ const Hverse1=(data)=>{
       ref={ref =>(flatListRef = ref)}
       data={chps}
       renderItem={renderItem}
-      style={{zIndex:1,backgroundColor:"rgba(213, 213, 213 , 0.5)"}}
+      style={{zIndex:1,backgroundColor:"rgba(213, 213, 213 , 0.4)"}}
       horizontal={true}
       ListFooterComponent={ListFooterComponent}
       showsHorizontalScrollIndicator={false}
@@ -201,12 +201,14 @@ const styles = StyleSheet.create({
     fontFamily:"sans-serif-medium"
   },
   subText:{
-    color:"#2E2E2E",
-    fontSize:RFValue(14),
+    color:"rgba(0, 0, 0 , 1)",
+    fontSize:RFValue(16),
     fontWeight:"bold",
     marginLeft:RFValue(10),
     marginRight:RFValue(10),
     textAlign :"center",
+    textShadowColor:"white",
+    elevation:10
   },
   droidSafeArea: {
     marginTop: Platform.OS === "android" ? StatusBar.currentHeight : RFValue(35)
