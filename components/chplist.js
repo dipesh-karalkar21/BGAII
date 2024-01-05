@@ -17,7 +17,6 @@ import { useRef } from "react";
 import { useFonts } from "expo-font";
 import { useRoute } from "@react-navigation/native";
 import {RFValue} from "react-native-responsive-fontsize";
-import * as SplashScreen from 'expo-splash-screen';
 const {width,height} = Dimensions.get('window')
 var addFactor = 0
 var mainHeight = height-width
@@ -53,7 +52,6 @@ export default class Chplist extends React.Component{
   render(){
     return(
       <View style={{height:"auto",width:"100%",backgroundColor:"white"}}>
-      <SafeAreaView style={styles.droidSafeArea} />
       <View style={styles.mainHeader}>
         <Image source={require("./BGBG.png")} style={{height:RFValue(120),width:RFValue(240),marginBottom:RFValue(20),marginRight:RFValue(30)}}></Image>
       </View>

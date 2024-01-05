@@ -3,11 +3,28 @@ import { Text, View, StyleSheet } from 'react-native';
 import Hverse from "./components/hverselist"
 import Chplist from './components/chplist';
 import StackNav from './navigate/stackNav';
+import * as Updates from 'expo-updates';
+import { useEffect } from 'react';
 import { NavigationContainer } from "@react-navigation/native";
 export default function App() {
 
-  //console.log(BGDATA[0].id)aaa
-  
+  async function onFetchUpdateAsync() {
+    try {
+      const update = await Updates.checkForUpdateAsync();
+
+      if (update.isAvailable) {
+        await Updates.fetchUpdateAsync();
+        await Updates.reloadAsync();
+      }
+    } catch (error) {
+      console.log(error)
+    }
+  }
+
+  useEffect(()=>{
+    onFetchUpdateAsync()
+  },[])
+
   return (
     <NavigationContainer>
       <StackNav/>

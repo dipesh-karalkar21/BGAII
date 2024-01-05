@@ -45,7 +45,6 @@ export default class Verselist extends React.Component{
     var chpogname = this.props.route.params.chogname
     return(
       <View style={{height:"auto",width:"100%",backgroundColor:"white"}}>
-      <SafeAreaView style={styles.droidSafeArea} />
       <View style={styles.mainHeader}>
        <Text style={{textAlign:"center",color:"white",fontSize:RFValue(15),marginLeft:RFValue(10),fontWeight:"bold"}}>Chapter {chpid1} : {chpogname} </Text>
       </View>

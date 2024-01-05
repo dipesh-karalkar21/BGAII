@@ -28,8 +28,7 @@ const Hverse1=(data)=>{
   var chpid = parseInt(data.data1)
   var cid1 = data.data
   const[chps,setChps] = useState(chplist[0][chpid])
-  const[cid,setCid] = useState(chps.length - 2)
-  //const[cid,setCid] = useState(cid1)
+  const[cid,setCid] = useState(cid1)
   const[refreshing,setRefreshing] = useState(false);
   const[zIndex,setZindex]=useState(0)
   var flatListRef = React.useRef<FlatList>(null);   
@@ -149,9 +148,7 @@ const Hverse1=(data)=>{
 
   return(
     <View style={{height:"100%",width:width,backgroundColor: "white"}}>
-    <SafeAreaView style={styles.droidSafeArea} />
     <View style={{height:height,display:"flex",width:width,position:"absolute",zIndex:zIndex}}>
-      <SafeAreaView style={styles.droidSafeArea} />
       <ImageBackground source={require("./OIP2.jpg")} style={{height:height,width:width,justifyContent:"center",alignItems:"center"}} resizeMode="stretch">
         <Animated.Image source={require("./morPankh1.png")} style={{marginTop:RFValue(70),width:210,height:210,transform: [{rotate: spinDeg,},{scaleX:1}]}} />
         <View style={{position:"absolute",fontWeight:"bold",width:width,height:height}}>
