@@ -1,13 +1,17 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import Hverse from "./components/hverselist"
 import Chplist from './components/chplist';
 import StackNav from './navigate/stackNav';
 import * as Updates from 'expo-updates';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 import { useEffect } from 'react';
 import { NavigationContainer } from "@react-navigation/native";
-export default function App() {
+import { enableScreens } from 'react-native-screens';
+enableScreens(false);
 
+export default function App() {
+  
   async function onFetchUpdateAsync() {
     try {
       const update = await Updates.checkForUpdateAsync();

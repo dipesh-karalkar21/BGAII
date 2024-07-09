@@ -13,17 +13,17 @@ import {
   TouchableOpacity,
   } from "react-native";
 import CHPDATA from "../chp.json";
+import { Ionicons } from "@expo/vector-icons";
 import { useRef } from "react";
-import { useFonts } from "expo-font";
 import { useRoute } from "@react-navigation/native";
 import {RFValue} from "react-native-responsive-fontsize";
+import AsyncStorage from "@react-native-async-storage/async-storage";
 const {width,height} = Dimensions.get('window')
 var addFactor = 0
 var mainHeight = height-width
 if(mainHeight>300){addFactor = height*0.09}
 if(mainHeight>400){addFactor = height*0.065}
 if(mainHeight<300){addFactor = height*0.09}
-console.log(`${mainHeight},${height},${addFactor}`)
 export default class Chplist extends React.Component{
 
   renderItem =(item)=>{
@@ -51,13 +51,52 @@ export default class Chplist extends React.Component{
 
   render(){
     return(
-      <View style={{height:"auto",width:"100%",backgroundColor:"white"}}>
+      <View style={styles.droidSafeArea}>
       <View style={styles.mainHeader}>
         <Image source={require("./BGBG.png")} style={{height:RFValue(120),width:RFValue(240),marginBottom:RFValue(20),marginRight:RFValue(30)}}></Image>
       </View>
       <ImageBackground source={require("./MV1.jpg")} style={{height:height}} resizeMode="stretch" >
       <FlatList
           data={CHPDATA}
+          ListHeaderComponent={()=>{
+            return(
+              <View>
+                <TouchableOpacity style={styles.card}
+                onPress={()=>{
+                  AsyncStorage.getItem('Recent').then((value) => {
+                    if (value) {
+                        const data = JSON.parse(value);
+                        this.props.navigation.navigate("Hverse2",{cid:data.id ,chpid : data.chp , chpname : data.name})
+                    }
+                  });
+                }}>
+                  <View style={styles.main}>
+                  <View style={styles.sub}>
+                    <Text style={[styles.text,{marginTop:RFValue(12.5)}]}>
+                      <Ionicons name = "book" style={{fontSize:RFValue(17)}} />
+                    </Text>
+                    <View style={styles.innerView}>
+                      <Text style={[styles.subText,{fontSize:RFValue(17)}]}>Last Read Verse</Text>
+                    </View>
+                  </View>
+                  </View>
+                </TouchableOpacity>
+                <TouchableOpacity style={styles.card}
+                onPress={()=>{this.props.navigation.navigate("Bookmarks")}}>
+                  <View style={styles.main}>
+                  <View style={styles.sub}>
+                    <Text style={[styles.text,{marginTop:RFValue(12.5)}]}>
+                      <Ionicons name = "bookmarks" style ={{fontSize:RFValue(17)}} />
+                    </Text>
+                    <View style={styles.innerView}>
+                      <Text style={[styles.subText,{fontSize:RFValue(17)}]}>My Bookmarks</Text>
+                    </View>
+                  </View>
+                  </View>
+                </TouchableOpacity>
+              </View>
+            )
+          }}
           style={{
             height:height,
             backgroundColor:"#",borderColor:"grey",borderWidth:RFValue(1),borderTopWidth:RFValue(0),borderBottomWidth:RFValue(1),}}
@@ -91,12 +130,21 @@ const styles = StyleSheet.create({
     marginRight:RFValue(5),
     textAlign :"left",
   },
+  subText1:{
+    color:"white",
+    fontSize:RFValue(20),
+    fontWeight:"bold",
+    marginLeft:RFValue(10),
+    marginRight:RFValue(5),
+    textAlign :"left",
+  },
   droidSafeArea: {
-    marginTop: Platform.OS === "android" ? StatusBar.currentHeight : RFValue(35)
+    marginTop: Platform.OS === "android" ? StatusBar.currentHeight : RFValue(35),
+    height:"auto",width:"100%",backgroundColor:"white"
   },
   card:{
     borderWidth:RFValue(1),
-    backgroundColor: "rgba(73, 73, 73,0.4)",
+    backgroundColor: "rgba(73, 73, 73,0.5)",
     borderRadius: RFValue(0),
     width:"95%",
     height:RFValue(75),
@@ -107,6 +155,20 @@ const styles = StyleSheet.create({
     marginTop:RFValue(5),
     borderRadius:RFValue(10),
     borderColor:"black"
+  },
+  card1:{
+    borderWidth:RFValue(1),
+    backgroundColor: "rgba(73, 73, 73,0.4)",
+    width:"95%",
+    height:RFValue(75),
+    alignSelf:"center",
+    margin:RFValue(13),
+    marginBottom : RFValue(5),
+    marginTop:RFValue(5),
+    borderRadius:RFValue(10),
+    borderColor:"black",
+    display : "flex",
+    textAlign : "center"
   },
   sub:{
     display:"flex",

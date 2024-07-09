@@ -14,34 +14,85 @@ import {
   Image,
   ActivityIndicator,
   Animated,
-  Easing
+  Easing,
+  BackHandler
   } from "react-native";
 import { useEffect } from "react";
 import {useCallback, useRef } from "react";
 import { useState } from "react";
+import AsyncStorage from "@react-native-async-storage/async-storage";
+import { Ionicons } from "@expo/vector-icons";
 import chplist from "../chplist.json";
 import {RFValue} from "react-native-responsive-fontsize";
 const {width,height} = Dimensions.get('window')
-
-
+var value = []
 const Hverse1=(data)=>{ 
   var chpid = parseInt(data.data1)
   var cid1 = data.data
   const[chps,setChps] = useState(chplist[0][chpid])
   const[cid,setCid] = useState(cid1)
-  const[refreshing,setRefreshing] = useState(false);
-  const[zIndex,setZindex]=useState(0)
+  const[rerender, setRerender] = useState(true)
+  const[refreshing,setRefreshing] = useState(false); 
+  const[zIndex,setZindex]=useState(0);
   var flatListRef = React.useRef<FlatList>(null);   
-  
   useEffect(()=>{
     flatListRef.scrollToIndex({index : cid})
+    for(i in chps){
+      if(chps[i].id == cid){
+        AsyncStorage.setItem('Recent',JSON.stringify(chps[i]))
+      }
+    }
   },[cid])
 
+
   const renderItem =useCallback((item)=>{
+    var bookmark = "bookmark-outline"
+    for(i in value){
+      if(value[i].id == item.item.id && value[i].chp == item.item.chp){
+        bookmark = "bookmark"
+      }
+    }
+    
     if(item.item.id > 0){return(
       <View style={[styles.card]}>
       <ScrollView contentContainerStyle={styles.main} showsVerticalScrollIndicator={false}>
       <Text> </Text>
+      <TouchableOpacity 
+        onPress={()=>{
+          var status = "added"
+          for(i in value){
+            if(value[i].id == item.item.id && value[i].chp == item.item.chp){
+              value.splice(i,1)
+              status = "removed"
+            }
+          }   
+
+          if(status === "added"){
+            value.push(item.item)
+          }
+          
+          for(var j = 0;j<(value.length - 1);j++){
+            for(var k = 0;k<(value.length - j - 1);k++){
+              if(parseInt(value[k].chp) > parseInt(value[k+1].chp)){
+                var temp = value[k]
+                value[k] = value[k+1]
+                value[k+1] = temp
+              }
+              else if(parseInt(value[k].chp) == parseInt(value[k+1].chp)){
+                if(parseInt(value[k].id) > parseInt(value[k+1].id)){
+                  var temp = value[k]
+                  value[k] = value[k+1]
+                  value[k+1] = temp
+                }
+              }
+            }
+          }
+          AsyncStorage.setItem('BookMark',JSON.stringify(value))
+          setRerender(!rerender)  
+        }}
+        style={{alignSelf:"flex-end",marginTop:RFValue(20),position:"absolute",zIndex:1}} >
+        <Ionicons name = {bookmark} style={styles.subText1} ></Ionicons>
+      </TouchableOpacity>
       <Text style={[styles.subText,{fontSize:RFValue(17.5)}]}>
         Chapter {item.item.chp} Verse {item.item.data.verno}
       </Text>
@@ -87,7 +138,7 @@ const Hverse1=(data)=>{
         </View>
       )  
     }
-  },[])
+  },[rerender])
 
   const ListFooterComponent =useCallback(()=>{
     return(
@@ -147,7 +198,7 @@ const Hverse1=(data)=>{
 
 
   return(
-    <View style={{height:"100%",width:width,backgroundColor: "white"}}>
+    <View style={styles.droidSafeArea}>
     <View style={{height:height,display:"flex",width:width,position:"absolute",zIndex:zIndex}}>
       <ImageBackground source={require("./OIP2.jpg")} style={{height:height,width:width,justifyContent:"center",alignItems:"center"}} resizeMode="stretch">
         <Animated.Image source={require("./morPankh1.png")} style={{marginTop:RFValue(70),width:210,height:210,transform: [{rotate: spinDeg,},{scaleX:1}]}} />
@@ -171,6 +222,13 @@ const Hverse1=(data)=>{
       initialNumToRender={0}
       maxToRenderPerBatch={80}
       updateCellsBatchingPeriod={3}
+      onViewableItemsChanged={({ viewableItems }) => {
+        if (viewableItems.length > 0) {
+          const currentVerse = viewableItems[0].item;
+          AsyncStorage.setItem('Recent',JSON.stringify(currentVerse))
+        }
+      }}
+      viewabilityConfig={{itemVisiblePercentThreshold:100,}}
       bounces={false}
       refreshing={refreshing}
       getItemLayout={(data,index)=>({length : width , offset:width*index , index})}
@@ -181,7 +239,27 @@ const Hverse1=(data)=>{
 }
 
 export default class Hverse extends React.Component{
+  constructor(props) {
+    super(props);
+    this.state = {
+      info : null
+    };
+  }
+
+  componentDidMount() {
+    AsyncStorage.getItem('BookMark').then((value) => {
+        if (value) {
+            const data = JSON.parse(value);
+            this.setState({info : data});
+        }
+        else{
+          this.setState({info : []});
+        }
+    });
+  }
+
   render(){
+    value = this.state.info
     const cid1 = this.props.route.params.cid
     const chpid1 = this.props.route.params.chpid
     const chpname1 = this.props.route.params.chpname
@@ -197,6 +275,14 @@ const styles = StyleSheet.create({
     fontSize:RFValue(25),
     fontFamily:"sans-serif-medium"
   },
+  subText1:{
+    color:"rgba(0, 0, 0 , 1)",
+    fontSize:RFValue(30),
+    fontWeight:"Bold",
+    textAlign :"right",
+    marginRight:RFValue(10),
+    alignSelf:"flex-end"
+  },
   subText:{
     color:"rgba(0, 0, 0 , 1)",
     fontSize:RFValue(16),
@@ -205,10 +291,11 @@ const styles = StyleSheet.create({
     marginRight:RFValue(10),
     textAlign :"center",
     textShadowColor:"white",
-    elevation:10
+    elevation:10,
   },
   droidSafeArea: {
-    marginTop: Platform.OS === "android" ? StatusBar.currentHeight : RFValue(35)
+    marginTop: Platform.OS === "android" ? StatusBar.currentHeight : RFValue(35),
+    height:"100%",width:width,backgroundColor: "white"
   },
   card:{
     width:width,

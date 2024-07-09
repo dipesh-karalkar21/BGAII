@@ -44,7 +44,7 @@ export default class Verselist extends React.Component{
     var main = chplist[0][chpid]
     var chpogname = this.props.route.params.chogname
     return(
-      <View style={{height:"auto",width:"100%",backgroundColor:"white"}}>
+      <View style={styles.droidSafeArea}>
       <View style={styles.mainHeader}>
        <Text style={{textAlign:"center",color:"white",fontSize:RFValue(15),marginLeft:RFValue(10),fontWeight:"bold"}}>Chapter {chpid1} : {chpogname} </Text>
       </View>
@@ -83,11 +83,12 @@ const styles = StyleSheet.create({
     textAlign :"center"
   },
   droidSafeArea: {
-    marginTop: Platform.OS === "android" ? StatusBar.currentHeight : RFValue(35)
+    marginTop: Platform.OS === "android" ? StatusBar.currentHeight : RFValue(35),
+    height:"auto",width:"100%",backgroundColor:"white"
   },
   card:{
     borderWidth:RFValue(1),
-    backgroundColor: "rgba(73, 73, 73 ,0.4)",
+    backgroundColor: "rgba(73, 73, 73 ,0.5)",
     borderRadius: RFValue(0),
     width:"95%",
     justifyContent:"center",

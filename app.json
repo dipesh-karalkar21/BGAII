@@ -1,55 +1,27 @@
 {
   "expo": {
-    "name": "Bhagavad Gita",
-    "slug": "BGAII",
+    "name": "BGA",
+    "slug": "BGA",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./components/Logo.png",
+    "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./components/Logo.png",
+      "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#424242"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
     "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "bgios",
-      "runtimeVersion": {
-        "policy": "appVersion"
-      }
+      "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./components/Logo.png",
-        "backgroundColor": "#ffffff"
-      },
-      "package": "com.atudipu07.BGAII",
-      "versionCode": 1,
-      "runtimeVersion": "1.0.0"
-    },
-    "web": {
-      "favicon": "./components/Logo.png"
-    },
-    "extra": {
-      "eas": {
-        "projectId": "f2894f7d-b0ed-4666-b9a7-305f817ba1d8"
+        "foregroundImage": "./assets/adaptive-icon.jpg",
+        "backgroundColor": "#424242"
       }
     },
-    "updates": {
-      "url": "https://u.expo.dev/f2894f7d-b0ed-4666-b9a7-305f817ba1d8"
-    },
-    "expo": {
-      "plugins": [
-        [
-          "expo-updates",
-          {
-            "username": "atudipu07"
-          }
-        ]
-      ]
+    "web": {
+      "favicon": "./assets/favicon.png"
     }
   }
 }
