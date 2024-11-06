@@ -37,11 +37,7 @@ const Hverse1=(data)=>{
   var flatListRef = React.useRef<FlatList>(null);   
   useEffect(()=>{
     flatListRef.scrollToIndex({index : cid})
-    for(i in chps){
-      if(chps[i].id == cid){
-        AsyncStorage.setItem('Recent',JSON.stringify(chps[i]))
-      }
-    }
+    AsyncStorage.setItem('Recent',JSON.stringify(chps[cid]))
   },[cid])
 
 
